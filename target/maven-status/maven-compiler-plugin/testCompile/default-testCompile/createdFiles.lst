@@ -1,0 +1,7 @@
+steam\pages\MainPage.class
+framework\Browser$Browsers.class
+steam\pages\AgeVerificationPage.class
+framework\LocaleReader.class
+steam\pages\CategoryPage.class
+steam\pages\GamePage.class
+steam\pages\InstallPage.class

@@ -1,0 +1,4 @@
+# Created at 2022-03-24T21:18:47.422
+Boot Manifest-JAR contains absolute paths in classpath 'D:\study\task3_steam_framework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
