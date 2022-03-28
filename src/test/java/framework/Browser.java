@@ -117,41 +117,21 @@ public final class Browser {
         driver.navigate().to(url);
     }
 
-    /**
-     * Gets ImplicitlyWait
-     * @return implicitlyWait
-     */
     public String getImplicitlyWait() {
         return implicitlyWait;
     }
 
-    /**
-     * Gets TimeoutForPageLoad
-     * @return timeoutForPageLoad
-     */
     public String getTimeoutForPageLoad() {
         return timeoutForPageLoad;
     }
 
-    /**
-     * Gets TimeoutForCondition
-     * @return timeoutForCondition
-     */
     public String getTimeoutForCondition() {
         return timeoutForCondition;
     }
 
-    /**
-     * Get WebDriver
-     * @return driver
-     */
     public WebDriver getDriver() {
         return driver;
     }
-
-    /**
-     * Browsers enumeration
-     */
 
     public enum Browsers {
         FIREFOX("firefox"),
@@ -168,10 +148,6 @@ public final class Browser {
             value = valueToSet;
         }
 
-        /**
-         * Returns string value
-         * @return String value
-         */
         public String toString() {
             return value;
         }

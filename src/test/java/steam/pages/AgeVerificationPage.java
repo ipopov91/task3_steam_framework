@@ -35,12 +35,6 @@ public class AgeVerificationPage extends SteamBasePage {
         sltYear.selectDropDownValue(year);
     }
 
-    /**
-     * Pass age check y entering DOB
-     * @param day
-     * @param month
-     * @param year
-     */
     public void passAgeCheck(String day, String month, String year) {
         selectDay(day);
         selectMonth(month);

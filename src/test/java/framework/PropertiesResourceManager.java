@@ -7,10 +7,6 @@ public final class PropertiesResourceManager {
 
     private Properties properties = new Properties();
 
-    /**
-     * Constructor
-     * @param resourceName Name of resource
-     */
     public PropertiesResourceManager(final String resourceName) {
         properties = appendFromResource(properties,resourceName);
     }
@@ -37,30 +33,14 @@ public final class PropertiesResourceManager {
         return objProperties;
     }
 
-    /**
-     * Receives parameter value by key
-     * @param key Key
-     * @return Value
-     */
     public String getProperty(final String key) {
         return properties.getProperty(key);
     }
 
-    /**
-     * Receives parameter value by key
-     * @param key Key
-     * @param defaultValue Default Value
-     * @return Value
-     */
     public String getProperty(final String key, final String defaultValue) {
         return properties.getProperty(key, defaultValue);
     }
 
-    /**
-     * Sets the property
-     * @param key Key
-     * @param value Value
-     */
     public void setProperty(final String key, final String value) {
         properties.setProperty(key, value);
     }

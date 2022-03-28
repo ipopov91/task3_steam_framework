@@ -17,10 +17,6 @@ public class CategoryPage extends SteamBasePage {
         super(By.xpath(String.format(pageLocator, pageLocatorValue)));
     }
 
-    /**
-     * Find max game discount
-     * @return Max discount
-     */
     public int findMaxDiscount() {
         List<WebElement> discounts = lblDiscounts.getElements();
         int maxGameDiscount = Integer.parseInt(discounts.get(0).getText().replaceAll("[-%]",""));
@@ -33,10 +29,6 @@ public class CategoryPage extends SteamBasePage {
         return maxGameDiscount;
     }
 
-    /**
-     * Select game with max discount
-     * @param maxDiscount
-     */
     public void selectGameWithMaxDiscount (int maxDiscount) {
         Label lblGameMaxDiscount = new Label(By.xpath(String.format(recommendedSpecialsDiscountLocator,maxDiscount)));
         lblGameMaxDiscount.clickAndWait();

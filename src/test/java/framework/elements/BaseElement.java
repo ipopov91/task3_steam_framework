@@ -15,49 +15,14 @@ public class BaseElement {
     protected List<WebElement> elements;
     protected By locator;
 
-    /**
-     * Constructor
-     * @param locator
-     */
     public BaseElement(final By locator) {
         this.locator = locator;
     }
 
-    /**
-     * Get element
-     * @return WebElement
-     */
-    public WebElement getElement() {
-        waitForElementIsPresent();
-        return element;
-    }
-
-    /**
-     * Set element
-     */
-    public void setElement (final WebElement elementToSet) {
-        element = elementToSet;
-    }
-
-    /**
-     * Get elements
-     * @return List<WebElement>
-     */
-    public List<WebElement> getElements() {
-        waitForElementsArePresent();
-        return elements;
-    }
-
-    /**
-     * Wait for element is present.
-     */
     public void waitForElementIsPresent() {
         isElementPresent(Integer.valueOf(browser.getTimeoutForCondition()));
     }
 
-    /**
-     * Wait for elements are present.
-     */
     public void waitForElementsArePresent() {
         areElementsPresent(Integer.valueOf(browser.getTimeoutForCondition()));
     }
@@ -109,9 +74,6 @@ public class BaseElement {
         return false;
     }
 
-    /**
-     * Click
-     */
     public void click() {
         waitForElementIsPresent();
         if (browser.getDriver() instanceof JavascriptExecutor) {
@@ -120,44 +82,42 @@ public class BaseElement {
         element.click();
     }
 
-    /**
-     * Click and wait
-     */
     public void clickAndWait() {
         click();
         browser.waitForPageToLoad();
     }
 
-    /**
-     * Scroll to element
-     */
     public void scrollIntoView() {
         ((JavascriptExecutor)browser.getDriver()).executeScript("arguments[0].scrollIntoView();",element);
     }
 
-    /**
-     * Move to element
-     */
     public void moveToElement() {
         waitForElementIsPresent();
         Actions action = new Actions(browser.getDriver());
         action.moveToElement(element).perform();
     }
 
-    /**
-     * Send keys
-     */
     public void sendKeys(Keys key) {
         waitForElementIsPresent();
         browser.getDriver().findElement(locator).sendKeys(key);
     }
 
-    /**
-     * Get the element text
-     * @return text of element
-     */
     public String getText() {
         waitForElementIsPresent();
         return element.getText();
+    }
+
+    public WebElement getElement() {
+        waitForElementIsPresent();
+        return element;
+    }
+
+    public void setElement (final WebElement elementToSet) {
+        element = elementToSet;
+    }
+
+    public List<WebElement> getElements() {
+        waitForElementsArePresent();
+        return elements;
     }
 }

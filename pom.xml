@@ -13,7 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <suiteXml>src/test/resources/testng.xml</suiteXml>
+        <suiteXml>testng.xml</suiteXml>
     </properties>
 
     <dependencies>
@@ -41,7 +41,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${suiteXml}</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/${suiteXml}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

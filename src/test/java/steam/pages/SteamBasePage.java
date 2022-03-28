@@ -19,7 +19,7 @@ public class SteamBasePage extends BasePage {
 
     private Button btnInstallSteam = new Button(By.className(installSteamLocator));
     private Button btnLanguage = new Button(By.id(languageDropdownLocator));
-    private Label lblLanguages = new Label(By.xpath(baseSingleLanguageLocator));
+    private Label labelLanguages = new Label(By.xpath(baseSingleLanguageLocator));
 
     public SteamBasePage() {
         super(By.className(pageLocator));
@@ -51,8 +51,8 @@ public class SteamBasePage extends BasePage {
      */
     public void chooseLanguage(String lang) {
         if (isLanguagePresent(lang)) {
-            Label lblSingleLanguage = new Label(By.xpath(String.format(singleLanguageLocator, lang)));
-            lblSingleLanguage.click();
+            Label labelSingleLanguage = new Label(By.xpath(String.format(singleLanguageLocator, lang)));
+            labelSingleLanguage.click();
         }
     }
 
@@ -62,7 +62,7 @@ public class SteamBasePage extends BasePage {
      * @return Boolean
      */
     public boolean isLanguagePresent(String lang) {
-        List<WebElement> languages = lblLanguages.getElements();
+        List<WebElement> languages = labelLanguages.getElements();
         for (WebElement language : languages) {
             if(language.getText().contains(lang)){
                 return true;
@@ -76,8 +76,8 @@ public class SteamBasePage extends BasePage {
      */
     public void navigateStorePullDownMenu (String storeNavPullDownItemToSelect, String storeNavGenrePopupMenuItemToSelect) {
         Label lblStoreNavItem = new Label(By.xpath(String.format(storeNavPullDownItemLocator,storeNavPullDownItemToSelect)));
-        Label lblStoreNavPopupMenuItem = new Label(By.xpath(String.format(storeNavGenrePopupMenuItemLocator,storeNavGenrePopupMenuItemToSelect)));
+        Label labelStoreNavPopupMenuItem = new Label(By.xpath(String.format(storeNavGenrePopupMenuItemLocator,storeNavGenrePopupMenuItemToSelect)));
         lblStoreNavItem.click();
-        lblStoreNavPopupMenuItem.clickAndWait();
+        labelStoreNavPopupMenuItem.clickAndWait();
     }
 }
