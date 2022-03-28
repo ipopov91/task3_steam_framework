@@ -12,7 +12,7 @@ public class SteamBasePage extends BasePage {
 
     private static String languageDropdownLocator = "language_pulldown";
     private static String baseSingleLanguageLocator = "//div[@id='language_dropdown']//a";
-    private static String singleLanguageLocator = " //div[@id='language_dropdown']//a[contains(text(),'%s')]";
+    private static String singleLanguageLocator = "//div[@id='language_dropdown']//a[contains(text(),'%s')]";
     private static String installSteamLocator = "header_installsteam_btn_content";
     private static String storeNavPullDownItemLocator = "//div[@class='store_nav']//a[@class='pulldown_desktop' and contains(text(), '%s')]";
     private static String storeNavGenrePopupMenuItemLocator = "//div[@class='popup_menu_subheader popup_genre_expand_header responsive_hidden']//a[@class='popup_menu_item' and contains(text(),'%s')]";
@@ -51,7 +51,7 @@ public class SteamBasePage extends BasePage {
      */
     public void chooseLanguage(String lang) {
         if (isLanguagePresent(lang)) {
-            Label lblSingleLanguage = new Label(By.xpath(String.format(singleLanguageLocator,lang)));
+            Label lblSingleLanguage = new Label(By.xpath(String.format(singleLanguageLocator, lang)));
             lblSingleLanguage.click();
         }
     }

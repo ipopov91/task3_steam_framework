@@ -17,8 +17,9 @@ public final class LocaleReader {
 
     public static String getString(String parameter) {
         locale = new Locale(language);
-        resource = PropertyResourceBundle.getBundle("localization/LocaleSteam", locale);
+        resource = PropertyResourceBundle.getBundle("localization/Loc", locale);
         String value = resource.getString(parameter);
+        System.out.println(parameter);
         return value;
     }
 }
