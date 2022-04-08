@@ -11,13 +11,12 @@ public class CategoryPage extends SteamBasePage {
     private static String recommendedSpecialsDiscountBaseLocator = "//div[@id='specials_container']//div[@class='discount_pct']";
     private static String recommendedSpecialsDiscountLocator = "//div[@id='specials_container']//div[@class='discount_pct' and contains(text(),'%s')]";
 
-    Label lblDiscounts = new Label(By.xpath(recommendedSpecialsDiscountBaseLocator));
-
     public CategoryPage(String pageLocatorValue) {
         super(By.xpath(String.format(pageLocator, pageLocatorValue)));
     }
 
     public int findMaxDiscount() {
+        Label lblDiscounts = new Label(By.xpath(recommendedSpecialsDiscountBaseLocator));
         List<WebElement> discounts = lblDiscounts.getElements();
         int maxGameDiscount = Integer.parseInt(discounts.get(0).getText().replaceAll("[-%]",""));
         for (WebElement discount : discounts) {

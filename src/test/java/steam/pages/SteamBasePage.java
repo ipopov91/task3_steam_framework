@@ -17,10 +17,6 @@ public class SteamBasePage extends BasePage {
     private static String storeNavPullDownItemLocator = "//div[@class='store_nav']//a[@class='pulldown_desktop' and contains(text(), '%s')]";
     private static String storeNavGenrePopupMenuItemLocator = "//div[@class='popup_menu_subheader popup_genre_expand_header responsive_hidden']//a[@class='popup_menu_item' and contains(text(),'%s')]";
 
-    private Button btnInstallSteam = new Button(By.className(installSteamLocator));
-    private Button btnLanguage = new Button(By.id(languageDropdownLocator));
-    private Label labelLanguages = new Label(By.xpath(baseSingleLanguageLocator));
-
     public SteamBasePage() {
         super(By.className(pageLocator));
     }
@@ -33,6 +29,7 @@ public class SteamBasePage extends BasePage {
      * Navigate to install steam
      */
     public void navigateInstallSteam() {
+        Button btnInstallSteam = new Button(By.className(installSteamLocator));
         btnInstallSteam.click();
     }
 
@@ -41,6 +38,7 @@ public class SteamBasePage extends BasePage {
      * @param langToSet
      */
     public void switchLanguage(String langToSet) {
+        Button btnLanguage = new Button(By.id(languageDropdownLocator));
         btnLanguage.click();
         chooseLanguage(langToSet);
     }
@@ -62,6 +60,7 @@ public class SteamBasePage extends BasePage {
      * @return Boolean
      */
     public boolean isLanguagePresent(String lang) {
+        Label labelLanguages = new Label(By.xpath(baseSingleLanguageLocator));
         List<WebElement> languages = labelLanguages.getElements();
         for (WebElement language : languages) {
             if(language.getText().contains(lang)){
