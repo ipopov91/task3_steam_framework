@@ -11,12 +11,11 @@ import java.io.File;
 
 public class InstallPage extends BasePage {
     private static final String installSteamButtonLocator = "//div[@id='about_greeting']//a[contains(text(),'%s')]";
-    private static final By installSteamButtonLocatorBy = By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam")));
 
-    Button btnInstallSteam = new Button(installSteamButtonLocatorBy);
+    Button btnInstallSteam = new Button(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))));
 
     public InstallPage() {
-        super(installSteamButtonLocatorBy);
+        super(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))));
     }
 
     /**
