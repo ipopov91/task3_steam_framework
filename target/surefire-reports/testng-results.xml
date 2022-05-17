@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-17T12:22:49 MSK" name="Surefire suite" finished-at="2022-05-17T12:23:05 MSK" duration-ms="16191">
+  <suite started-at="2022-05-17T13:30:18 MSK" name="Surefire suite" finished-at="2022-05-17T13:30:30 MSK" duration-ms="11748">
     <groups>
     </groups>
-    <test started-at="2022-05-17T12:22:49 MSK" name="Surefire test" finished-at="2022-05-17T12:23:05 MSK" duration-ms="16191">
+    <test started-at="2022-05-17T13:30:18 MSK" name="Surefire test" finished-at="2022-05-17T13:30:30 MSK" duration-ms="11748">
       <class name="steam.test.DownloadSteamTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:steam.test.DownloadSteamTest@1930a804]" started-at="2022-05-17T12:22:49 MSK" name="beforeTest" finished-at="2022-05-17T12:22:49 MSK" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:steam.test.DownloadSteamTest@50df37eb]" started-at="2022-05-17T13:30:18 MSK" name="beforeTest" finished-at="2022-05-17T13:30:18 MSK" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:steam.test.DownloadSteamTest@1930a804]" started-at="2022-05-17T12:22:49 MSK" name="beforeClass" finished-at="2022-05-17T12:22:49 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:steam.test.DownloadSteamTest@50df37eb]" started-at="2022-05-17T13:30:18 MSK" name="beforeClass" finished-at="2022-05-17T13:30:18 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test()[pri:0, instance:steam.test.DownloadSteamTest@1930a804]" started-at="2022-05-17T12:22:49 MSK" name="Test" finished-at="2022-05-17T12:23:04 MSK" duration-ms="15590" status="PASS">
+        <test-method signature="Test()[pri:0, instance:steam.test.DownloadSteamTest@50df37eb]" started-at="2022-05-17T13:30:18 MSK" name="Test" finished-at="2022-05-17T13:30:29 MSK" duration-ms="10851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="after()[pri:0, instance:steam.test.DownloadSteamTest@1930a804]" started-at="2022-05-17T12:23:04 MSK" name="after" finished-at="2022-05-17T12:23:05 MSK" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:steam.test.DownloadSteamTest@50df37eb]" started-at="2022-05-17T13:30:29 MSK" name="after" finished-at="2022-05-17T13:30:30 MSK" duration-ms="640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
