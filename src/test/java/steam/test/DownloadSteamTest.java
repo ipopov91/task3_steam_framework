@@ -29,31 +29,39 @@ public class DownloadSteamTest extends BaseTest {
     @Step("Steam download test")
     public void runTest() {
         logger.step(1);
-        logger.info("--------==[Open Steam main page]==--------");
+        logger.info("--------==[Logging into https://store.steampowered.com]==--------\n");
+
         browser.navigate(browser.props.getProperty("URL"));
-        logger.step(2);
-        logger.info("--------==[Navigate to categories]==--------");
+
         String storeNavPullDownItem = LocaleReader.getString("storeNav.categories");
-        logger.step(3);
-        logger.info("--------==[Navigate to action category]==--------");
         String storeNavGenrePopupMenuItem = LocaleReader.getString("storeNavCategories.action");
 
         MainPage mainPage = new MainPage();
+
+        logger.step(2);
+        logger.info("--------==[Click dropdown button and choose language]==--------\n");
         mainPage.switchLanguage(browser.props.getProperty("language"));
+
+        logger.step(3);
+        logger.info("--------==[Click pull down menu \"Categories\" and click label \"Actions\" \n]==--------");
         mainPage.navigateStorePullDownMenu(storeNavPullDownItem,storeNavGenrePopupMenuItem);
 
         CategoryPage categoryPage = new CategoryPage(storeNavGenrePopupMenuItem);
+
+        logger.step(4);
+        logger.info("--------==[Select game with max discount]==--------\n");
         int maxDiscount = categoryPage.findMaxDiscount();
         categoryPage.selectGameWithMaxDiscount(maxDiscount);
 
         if (browser.getDriver().getCurrentUrl().contains("agecheck")) {
+            logger.info("--------==[Age verification]==--------\n");
             AgeVerificationPage ageVerificationPage = new AgeVerificationPage();
             ageVerificationPage.passAgeCheck(DEFAULT_DAY, DEFAULT_MONTH, DEFAULT_YEAR);
         }
 
         GamePage gamePage = new GamePage(String.valueOf(maxDiscount));
         logger.step(4);
-        logger.info("--------==[Navigate to install steam]==--------");
+        logger.info("--------==[Navigate and click to \"Install Steam\" button]==--------\n");
         gamePage.navigateInstallSteam();
 
         InstallPage installPage = new InstallPage();
