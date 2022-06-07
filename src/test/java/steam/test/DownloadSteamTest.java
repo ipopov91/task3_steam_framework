@@ -49,12 +49,12 @@ public class DownloadSteamTest extends BaseTest {
         CategoryPage categoryPage = new CategoryPage(storeNavGenrePopupMenuItem);
 
         logger.step(4);
-        logger.info("Choose the game with the maximum discount\n");
+        logger.info("Choose the game with the maximum discount and click on it\n");
         int maxDiscount = categoryPage.findMaxDiscount();
         categoryPage.selectGameWithMaxDiscount(maxDiscount);
 
         if (browser.getDriver().getCurrentUrl().contains("agecheck")) {
-            logger.info("Age verification\n");
+            logger.info("Age verification: Enter your age in the fields that appear\n");
             AgeVerificationPage ageVerificationPage = new AgeVerificationPage();
             ageVerificationPage.passAgeCheck(DEFAULT_DAY, DEFAULT_MONTH, DEFAULT_YEAR);
         }
@@ -67,7 +67,7 @@ public class DownloadSteamTest extends BaseTest {
         InstallPage installPage = new InstallPage();
 
         logger.step(5);
-        logger.info("Download Steam!");
+        logger.info("Click \"Download Steam!\"");
         installPage.downloadSteam();
         Assert.assertTrue(installPage.isFileDownloaded());
 
