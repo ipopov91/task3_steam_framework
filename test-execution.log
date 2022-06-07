@@ -1,0 +1,151 @@
+2022-06-06 23:07:41 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:07:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:07:41 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:07:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:07:41 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:07:41 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:07:41 INFO  Logger:212 - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+2022-06-06 23:08:07 INFO  Logger:212 - 
+2022-06-06 23:08:07 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:08:07 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:08:07 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:08:07 INFO  Logger:212 - 
+2022-06-06 23:19:20 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:19:20 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:19:20 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:19:20 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:19:20 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:19:20 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:19:20 INFO  Logger:212 - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+2022-06-06 23:19:45 INFO  Logger:212 - 
+2022-06-06 23:19:45 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:19:45 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:19:45 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:19:45 INFO  Logger:212 - 
+2022-06-06 23:27:59 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:27:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:27:59 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:27:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:27:59 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:27:59 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:27:59 INFO  Logger:212 - Open Steam main page
+2022-06-06 23:28:02 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-06 23:28:02 INFO  Logger:212 - Navigate to categories
+2022-06-06 23:28:02 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-06 23:28:02 INFO  Logger:212 - Navigate to action category
+2022-06-06 23:28:28 INFO  Logger:212 - 
+2022-06-06 23:28:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:28:28 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:28:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:28:28 INFO  Logger:212 - 
+2022-06-06 23:31:05 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:31:05 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:31:05 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:31:05 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:31:05 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:31:05 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:31:05 INFO  Logger:212 - Open Steam main page
+2022-06-06 23:31:08 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-06 23:31:08 INFO  Logger:212 - Navigate to categories
+2022-06-06 23:31:08 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-06 23:31:08 INFO  Logger:212 - Navigate to action category
+2022-06-06 23:31:27 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-06 23:31:27 INFO  Logger:212 - Navigate to install steam
+2022-06-06 23:31:28 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-06 23:31:28 INFO  Logger:212 - Download Steam
+2022-06-06 23:31:30 INFO  Logger:212 - 
+2022-06-06 23:31:30 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:31:30 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:31:30 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:31:30 INFO  Logger:212 - 
+2022-06-06 23:32:30 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:32:30 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:32:30 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:32:30 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:32:30 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:32:30 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:32:30 INFO  Logger:212 - Open Steam main page
+2022-06-06 23:32:33 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-06 23:32:33 INFO  Logger:212 - Navigate to categories
+2022-06-06 23:32:33 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-06 23:32:33 INFO  Logger:212 - Navigate to action category
+2022-06-06 23:32:48 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-06 23:32:48 INFO  Logger:212 - Navigate to install steam
+2022-06-06 23:32:50 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-06 23:32:50 INFO  Logger:212 - Download Steam
+2022-06-06 23:32:52 INFO  Logger:212 - 
+2022-06-06 23:32:52 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:32:52 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:32:52 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:32:52 INFO  Logger:212 - 
+2022-06-06 23:33:56 INFO  Logger:212 - loc.browser.ready
+2022-06-06 23:33:57 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:33:57 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-06 23:33:57 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-06 23:33:57 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-06 23:33:57 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-06 23:33:57 INFO  Logger:212 - --------==[Open Steam main page]==--------
+2022-06-06 23:33:59 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-06 23:33:59 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-06 23:33:59 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-06 23:33:59 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-06 23:34:18 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-06 23:34:18 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-06 23:34:19 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-06 23:34:19 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-06 23:34:21 INFO  Logger:212 - 
+2022-06-06 23:34:21 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:34:21 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-06 23:34:21 INFO  Logger:212 - ****************************************************************************************
+2022-06-06 23:34:21 INFO  Logger:212 - 
+2022-06-07 00:10:54 INFO  Logger:212 - loc.browser.ready
+2022-06-07 00:10:55 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 00:10:55 INFO  Logger:212 - --------==[Open Steam main page]==--------
+2022-06-07 00:11:01 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 00:11:01 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-07 00:11:01 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 00:11:01 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-07 00:11:25 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 00:11:25 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-07 00:11:26 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 00:11:26 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 00:12:50 INFO  Logger:212 - loc.browser.ready
+2022-06-07 00:12:50 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 00:12:50 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 00:12:50 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 00:12:50 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 00:12:50 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 00:12:50 INFO  Logger:212 - --------==[Open Steam main page]==--------
+2022-06-07 00:12:53 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 00:12:53 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-07 00:12:53 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 00:12:53 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-07 00:13:23 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 00:13:23 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-07 00:13:26 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 00:13:26 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 00:13:29 INFO  Logger:212 - 
+2022-06-07 00:13:29 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 00:13:29 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 00:13:29 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 00:13:29 INFO  Logger:212 - 
+2022-06-07 19:31:17 INFO  Logger:212 - loc.browser.ready
+2022-06-07 19:31:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:31:17 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 19:31:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:31:17 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 19:31:17 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 19:31:17 INFO  Logger:212 - --------==[Open Steam main page]==--------
+2022-06-07 19:31:19 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 19:31:19 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-07 19:31:19 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 19:31:19 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-07 19:31:38 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 19:31:38 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-07 19:31:39 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 19:31:39 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 19:31:41 INFO  Logger:212 - 
+2022-06-07 19:31:41 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:31:41 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 19:31:41 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:31:41 INFO  Logger:212 - 

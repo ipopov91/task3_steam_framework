@@ -19,7 +19,7 @@ public final class LocaleReader {
         locale = new Locale(language);
         resource = PropertyResourceBundle.getBundle("localization/Loc", locale);
         String value = resource.getString(parameter);
-        System.out.println(parameter);
+        //System.out.println(parameter);
         return value;
     }
 }

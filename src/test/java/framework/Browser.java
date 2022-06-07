@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
+import static framework.Logger.getLoc;
+
 
 public final class Browser {
     private static final String IMPLICIT_WAIT = "implicitlyWait";
@@ -25,6 +27,13 @@ public final class Browser {
     private static String timeoutForCondition;
 
     public static Browsers currentBrowser;
+
+    /**
+     * Private constructor (singleton pattern)
+     */
+    private Browser() {
+        Logger.getInstance().info(String.format(getLoc("loc.browser.ready"), currentBrowser.toString()));
+    }
 
     /**
      * Gets instance of Browser
