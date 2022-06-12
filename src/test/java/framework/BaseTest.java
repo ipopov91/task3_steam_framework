@@ -23,7 +23,6 @@ public abstract class BaseTest extends BaseEntity{
 
         try {
             logger.logTestName(currentClass.getName());
-            logger.info("Open the Browser\n");
             runTest();
             logger.logTestEnd(currentClass.getName());
         } catch (Throwable e) {

@@ -8,12 +8,12 @@ import org.openqa.selenium.By;
 public class AgeVerificationPage extends SteamBasePage {
     private static String pageLocator = "//a[@class='btnv6_blue_hoverfade btn_medium' ]//span[contains(text(),'%s')]";
 
-    private DropDown sltDay = new DropDown(By.id("ageDay"));
-    private DropDown sltMonth = new DropDown(By.id("ageMonth"));
-    private DropDown sltYear = new DropDown(By.id("ageYear"));
+    private DropDown sltDay = new DropDown(By.id("ageDay"), "select day");
+    private DropDown sltMonth = new DropDown(By.id("ageMonth"), "select month");
+    private DropDown sltYear = new DropDown(By.id("ageYear"), "select year");
 
     public AgeVerificationPage() {
-        super(By.xpath(String.format(pageLocator, LocaleReader.getString("button.viewPage"))));
+        super(By.xpath(String.format(pageLocator, LocaleReader.getString("button.viewPage"))), "Age Verification page");
     }
 
     public void selectDate(String day, String month, String year) {
@@ -23,7 +23,7 @@ public class AgeVerificationPage extends SteamBasePage {
     }
 
     public void passAgeCheck(String day, String month, String year) {
-        Button btnViewPage = new Button(By.xpath(String.format(pageLocator, LocaleReader.getString("button.viewPage"))));
+        Button btnViewPage = new Button(By.xpath(String.format(pageLocator, LocaleReader.getString("button.viewPage"))), "view page");
         selectDate(day, month, year);
         btnViewPage.clickAndWait();
     }

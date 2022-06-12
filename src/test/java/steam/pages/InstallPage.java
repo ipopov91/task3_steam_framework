@@ -12,10 +12,10 @@ import java.io.File;
 public class InstallPage extends BasePage {
     private static final String installSteamButtonLocator = "//div[@id='about_greeting']//a[contains(text(),'%s')]";
 
-    Button btnInstallSteam = new Button(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))));
+    Button btnInstallSteam = new Button(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))), "download steam");
 
     public InstallPage() {
-        super(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))));
+        super(By.xpath(String.format(installSteamButtonLocator, LocaleReader.getString("button.installSteam"))), "Install Page");
     }
 
     /**

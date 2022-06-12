@@ -2,153 +2,162 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[loc.browser.ready<br>]]>
+      <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[-------------------------------------------------------------------------------------------------<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
-      <![CDATA[=====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================<br>]]>
+      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
     </line>
     <line>
-      <![CDATA[-------------------------------------------------------------------------------------------------<br>]]>
+      <![CDATA[=====================  Test case: 'steam.test.DownloadSteamTest' =====================<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.test.preconditions ]==--------<br>]]>
+      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.step1 ]==--------<br>]]>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[Open Steam main page]==--------<br>]]>
+      <![CDATA[Page 'Home Page' appears in 157msec<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.step2 ]==--------<br>]]>
+      <![CDATA[Button 'switch language' -- Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[Navigate to categories]==--------<br>]]>
+      <![CDATA[Label 'store navigation' -- Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.step3 ]==--------<br>]]>
+      <![CDATA[Label 'store navigation genre popup menu' -- Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[Navigate to action category]==--------<br>]]>
+      <![CDATA[Page 'Category page' appears in 27msec<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.step4 ]==--------<br>]]>
+      <![CDATA[Label 'max discount' -- Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[Navigate to install steam]==--------<br>]]>
+      <![CDATA[Page 'Game Page' appears in 38msec<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[ loc.logger.step5 ]==--------<br>]]>
+      <![CDATA[Button 'install steam' -- Clicking<br>]]>
     </line>
     <line>
-      <![CDATA[--------==[Download Steam]==--------<br>]]>
+      <![CDATA[Page 'Install Page' appears in 56msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'download steam' -- Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'steam.test.DownloadSteamTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[****************************************************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****<br>]]>
-    </line>
-    <line>
-      <![CDATA[****************************************************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
+      <![CDATA[driver.quit...<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-07T19:31:17 MSK" name="MySuite" finished-at="2022-06-07T19:31:41 MSK" duration-ms="24823">
+  <suite started-at="2022-06-12T11:05:05 MSK" name="MySuite" finished-at="2022-06-12T11:06:43 MSK" duration-ms="98648">
     <groups>
     </groups>
-    <test started-at="2022-06-07T19:31:17 MSK" name="SteamTest" finished-at="2022-06-07T19:31:41 MSK" duration-ms="24823">
+    <test started-at="2022-06-12T11:05:05 MSK" name="SteamTest" finished-at="2022-06-12T11:06:43 MSK" duration-ms="98648">
       <class name="steam.test.DownloadSteamTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:steam.test.DownloadSteamTest@1c90029b]" started-at="2022-06-07T19:31:17 MSK" name="beforeTest" finished-at="2022-06-07T19:31:17 MSK" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:steam.test.DownloadSteamTest@6253e59a]" started-at="2022-06-12T11:05:05 MSK" name="beforeTest" finished-at="2022-06-12T11:05:05 MSK" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="before(org.testng.ITestContext)[pri:0, instance:steam.test.DownloadSteamTest@1c90029b]" started-at="2022-06-07T19:31:17 MSK" name="before" finished-at="2022-06-07T19:31:17 MSK" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="before(org.testng.ITestContext)[pri:0, instance:steam.test.DownloadSteamTest@6253e59a]" started-at="2022-06-12T11:05:05 MSK" name="before" finished-at="2022-06-12T11:05:05 MSK" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1013871e]]>
+                <![CDATA[org.testng.TestRunner@24010875]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:steam.test.DownloadSteamTest@1c90029b]" started-at="2022-06-07T19:31:17 MSK" name="beforeClass" finished-at="2022-06-07T19:31:17 MSK" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:steam.test.DownloadSteamTest@6253e59a]" started-at="2022-06-12T11:05:05 MSK" name="beforeClass" finished-at="2022-06-12T11:05:05 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test()[pri:0, instance:steam.test.DownloadSteamTest@1c90029b]" started-at="2022-06-07T19:31:17 MSK" name="Test" finished-at="2022-06-07T19:31:41 MSK" duration-ms="24378" status="PASS">
+        <test-method signature="Test()[pri:0, instance:steam.test.DownloadSteamTest@6253e59a]" started-at="2022-06-12T11:05:05 MSK" name="Test" finished-at="2022-06-12T11:06:43 MSK" duration-ms="98261" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[-------------------------------------------------------------------------------------------------<br>]]>
+              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
             </line>
             <line>
-              <![CDATA[=====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================<br>]]>
+              <![CDATA[=====================  Test case: 'steam.test.DownloadSteamTest' =====================<br>]]>
             </line>
             <line>
-              <![CDATA[-------------------------------------------------------------------------------------------------<br>]]>
+              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.test.preconditions ]==--------<br>]]>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.step1 ]==--------<br>]]>
+              <![CDATA[Page 'Home Page' appears in 157msec<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[Open Steam main page]==--------<br>]]>
+              <![CDATA[Button 'switch language' -- Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.step2 ]==--------<br>]]>
+              <![CDATA[Label 'store navigation' -- Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[Navigate to categories]==--------<br>]]>
+              <![CDATA[Label 'store navigation genre popup menu' -- Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.step3 ]==--------<br>]]>
+              <![CDATA[Page 'Category page' appears in 27msec<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[Navigate to action category]==--------<br>]]>
+              <![CDATA[Label 'max discount' -- Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.step4 ]==--------<br>]]>
+              <![CDATA[Page 'Game Page' appears in 38msec<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[Navigate to install steam]==--------<br>]]>
+              <![CDATA[Button 'install steam' -- Clicking<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[ loc.logger.step5 ]==--------<br>]]>
+              <![CDATA[Page 'Install Page' appears in 56msec<br>]]>
             </line>
             <line>
-              <![CDATA[--------==[Download Steam]==--------<br>]]>
+              <![CDATA[Button 'download steam' -- Clicking<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[****************************************************************************************<br>]]>
+              <![CDATA[*************************************************************<br>]]>
             </line>
             <line>
-              <![CDATA[***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****<br>]]>
+              <![CDATA[***** Test case: 'steam.test.DownloadSteamTest' Passed! *****<br>]]>
             </line>
             <line>
-              <![CDATA[****************************************************************************************<br>]]>
+              <![CDATA[*************************************************************<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="after()[pri:0, instance:steam.test.DownloadSteamTest@1c90029b]" started-at="2022-06-07T19:31:41 MSK" name="after" finished-at="2022-06-07T19:31:41 MSK" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:steam.test.DownloadSteamTest@6253e59a]" started-at="2022-06-12T11:06:43 MSK" name="after" finished-at="2022-06-12T11:06:43 MSK" duration-ms="184" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- steam.test.DownloadSteamTest -->

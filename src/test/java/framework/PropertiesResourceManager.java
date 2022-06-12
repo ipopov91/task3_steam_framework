@@ -11,6 +11,8 @@ public final class PropertiesResourceManager {
         properties = appendFromResource(properties,resourceName);
     }
 
+
+
     /**
      * Join 2 properties-files
      * @param objProperties Properties
@@ -28,7 +30,7 @@ public final class PropertiesResourceManager {
                 e.printStackTrace();
             }
         } else {
-            System.err.println(String.format("Resource %s is not found", resourceName));
+            System.err.println(String.format("Resource \"%1$s\" could not be found", resourceName));
         }
         return objProperties;
     }

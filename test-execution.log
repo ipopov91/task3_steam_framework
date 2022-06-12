@@ -149,3 +149,1440 @@
 2022-06-07 19:31:41 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
 2022-06-07 19:31:41 INFO  Logger:212 - ****************************************************************************************
 2022-06-07 19:31:41 INFO  Logger:212 - 
+2022-06-07 19:45:36 INFO  Logger:212 - loc.browser.ready
+2022-06-07 19:45:36 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:45:36 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 19:45:36 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:45:36 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 19:45:36 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 19:45:36 INFO  Logger:212 - --------==[Logging into https://store.steampowered.com]==--------
+2022-06-07 19:45:39 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 19:45:39 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-07 19:45:39 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 19:45:39 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-07 19:46:01 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 19:46:01 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-07 19:46:02 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 19:46:02 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 19:46:04 INFO  Logger:212 - 
+2022-06-07 19:46:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:46:04 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 19:46:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:46:04 INFO  Logger:212 - 
+2022-06-07 19:47:14 INFO  Logger:212 - loc.browser.ready
+2022-06-07 19:47:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:47:14 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 19:47:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 19:47:14 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 19:47:14 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 19:47:14 INFO  Logger:212 - --------==[Logging into https://store.steampowered.com]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[Navigate to categories]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[Navigate to action category]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 19:47:17 INFO  Logger:212 - --------==[Change Language]==--------
+2022-06-07 19:47:38 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 19:47:38 INFO  Logger:212 - --------==[Navigate to install steam]==--------
+2022-06-07 19:47:40 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 19:47:40 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 19:47:41 INFO  Logger:212 - 
+2022-06-07 19:47:41 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:47:41 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 19:47:41 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 19:47:41 INFO  Logger:212 - 
+2022-06-07 20:08:02 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:08:02 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:08:02 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:08:02 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:08:02 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:08:02 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:08:02 INFO  Logger:212 - --------==[Logging into https://store.steampowered.com]==--------
+2022-06-07 20:08:05 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:08:05 INFO  Logger:212 - --------==[Click dropdown button and choose language]==--------
+2022-06-07 20:08:05 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:08:05 INFO  Logger:212 - --------==[Click store pull down menu "Categories" and click label "Actions" ]==--------
+2022-06-07 20:08:10 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:08:10 INFO  Logger:212 - --------==[Select game with max discount]==--------
+2022-06-07 20:08:22 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:08:22 INFO  Logger:212 - --------==[Navigate and click to "Install Steam" button]==--------
+2022-06-07 20:08:23 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:08:23 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 20:08:25 INFO  Logger:212 - 
+2022-06-07 20:08:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:08:25 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:08:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:08:25 INFO  Logger:212 - 
+2022-06-07 20:09:46 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:09:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:09:46 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:09:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:09:46 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:09:46 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:09:46 INFO  Logger:212 - --------==[Logging into https://store.steampowered.com]==--------
+
+2022-06-07 20:09:49 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:09:49 INFO  Logger:212 - --------==[Click dropdown button and choose language]==--------
+
+2022-06-07 20:09:49 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:09:49 INFO  Logger:212 - --------==[Click store pull down menu "Categories" and click label "Actions" 
+]==--------
+2022-06-07 20:09:53 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:09:53 INFO  Logger:212 - --------==[Select game with max discount]==--------
+
+2022-06-07 20:10:03 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:10:03 INFO  Logger:212 - --------==[Navigate and click to "Install Steam" button]==--------
+
+2022-06-07 20:10:05 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:10:05 INFO  Logger:212 - --------==[Download Steam]==--------
+2022-06-07 20:10:06 INFO  Logger:212 - 
+2022-06-07 20:10:06 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:10:06 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:10:06 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:10:06 INFO  Logger:212 - 
+2022-06-07 20:16:27 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:16:27 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:16:27 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:16:27 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:16:27 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:16:27 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:16:27 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:16:29 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:16:29 INFO  Logger:212 - Click dropdown button and choose language
+
+2022-06-07 20:16:30 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:16:30 INFO  Logger:212 - Click pull down menu "Categories" and click label "Actions" 
+
+2022-06-07 20:16:34 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:16:34 INFO  Logger:212 - Select game with max discount
+
+2022-06-07 20:16:47 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:16:47 INFO  Logger:212 - Navigate and click to "Install Steam" button
+
+2022-06-07 20:16:48 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:16:48 INFO  Logger:212 - Download Steam
+2022-06-07 20:16:50 INFO  Logger:212 - 
+2022-06-07 20:16:50 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:16:50 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:16:50 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:16:50 INFO  Logger:212 - 
+2022-06-07 20:34:55 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:34:55 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:34:55 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:34:55 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:34:55 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:34:55 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:34:55 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:34:58 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:34:58 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:34:59 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:34:59 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:35:05 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:35:05 INFO  Logger:212 - Choose the game with the maximum discount
+
+2022-06-07 20:35:21 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:35:21 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:35:22 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:35:22 INFO  Logger:212 - Download Steam!
+2022-06-07 20:35:25 INFO  Logger:212 - 
+2022-06-07 20:35:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:35:25 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:35:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:35:25 INFO  Logger:212 - 
+2022-06-07 20:36:18 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:36:18 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:36:18 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:36:18 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:36:18 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:36:18 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:36:18 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:36:20 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:36:20 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:36:21 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:36:21 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:36:27 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:36:27 INFO  Logger:212 - Choose the game with the maximum discount
+
+2022-06-07 20:36:42 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:36:42 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:36:43 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:36:43 INFO  Logger:212 - Download Steam!
+2022-06-07 20:36:45 INFO  Logger:212 - 
+2022-06-07 20:36:45 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:36:45 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:36:45 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:36:45 INFO  Logger:212 - 
+2022-06-07 20:47:39 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:47:39 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:47:39 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:47:39 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:47:39 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:47:39 INFO  Logger:212 - Open Browser
+2022-06-07 20:47:39 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:47:39 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:47:42 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:47:42 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:47:42 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:47:42 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:47:46 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:47:46 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-07 20:47:59 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:47:59 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:48:00 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:48:00 INFO  Logger:212 - Click "Download Steam!"
+2022-06-07 20:48:02 INFO  Logger:212 - 
+2022-06-07 20:48:02 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:48:02 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:48:02 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:48:02 INFO  Logger:212 - 
+2022-06-07 20:48:59 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:48:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:48:59 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:48:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:48:59 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:48:59 INFO  Logger:212 - ***** Open the Browser *****
+
+2022-06-07 20:48:59 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:48:59 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:49:02 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:49:02 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:49:02 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:49:02 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:49:09 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:49:09 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-07 20:49:20 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:49:20 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:49:21 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:49:21 INFO  Logger:212 - Click "Download Steam!"
+2022-06-07 20:49:23 INFO  Logger:212 - 
+2022-06-07 20:49:23 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:49:23 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:49:23 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:49:23 INFO  Logger:212 - 
+2022-06-07 20:50:10 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:50:10 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:50:10 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:50:10 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:50:10 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:50:10 INFO  Logger:212 - ***** Open the Browser *****
+
+2022-06-07 20:50:10 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:50:10 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:50:13 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:50:13 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:50:13 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:50:13 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:50:18 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:50:18 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-07 20:50:29 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:50:29 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:50:31 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:50:31 INFO  Logger:212 - Click "Download Steam!"
+2022-06-07 20:50:33 INFO  Logger:212 - Run test
+2022-06-07 20:50:33 INFO  Logger:212 - 
+2022-06-07 20:50:33 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:50:33 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:50:33 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:50:33 INFO  Logger:212 - 
+2022-06-07 20:51:06 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:51:06 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:51:06 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:51:06 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:51:06 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:51:06 INFO  Logger:212 - Open the Browser/n
+2022-06-07 20:51:06 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:51:06 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:51:09 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:51:09 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:51:09 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:51:09 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:51:15 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:51:15 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-07 20:51:25 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:51:25 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:51:27 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:51:27 INFO  Logger:212 - Click "Download Steam!"
+2022-06-07 20:51:28 INFO  Logger:212 - 
+2022-06-07 20:51:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:51:28 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:51:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:51:28 INFO  Logger:212 - 
+2022-06-07 20:51:55 INFO  Logger:212 - loc.browser.ready
+2022-06-07 20:51:55 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:51:55 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-07 20:51:55 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-07 20:51:55 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-07 20:51:55 INFO  Logger:212 - Open the Browser
+
+2022-06-07 20:51:55 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-07 20:51:55 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-07 20:51:57 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-07 20:51:57 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-07 20:51:58 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-07 20:51:58 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-07 20:52:03 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:52:03 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-07 20:52:12 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-07 20:52:12 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-07 20:52:13 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-07 20:52:13 INFO  Logger:212 - Click "Download Steam!"
+2022-06-07 20:52:15 INFO  Logger:212 - 
+2022-06-07 20:52:15 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:52:15 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-07 20:52:15 INFO  Logger:212 - ****************************************************************************************
+2022-06-07 20:52:15 INFO  Logger:212 - 
+2022-06-10 02:47:15 INFO  Logger:212 - loc.browser.ready
+2022-06-10 02:47:15 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:47:15 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-10 02:47:15 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:47:15 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-10 02:47:15 INFO  Logger:212 - Open the Browser
+
+2022-06-10 02:47:15 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-10 02:47:15 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-10 02:47:18 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-10 02:47:18 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-10 02:47:18 WARN  Logger:222 - 
+2022-06-10 02:47:18 WARN  Logger:233 - loc.test.failed
+2022-06-10 02:47:18 WARN  Logger:222 - 
+2022-06-10 02:50:13 INFO  Logger:212 - loc.browser.ready
+2022-06-10 02:50:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:50:14 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-10 02:50:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:50:14 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-10 02:50:14 INFO  Logger:212 - Open the Browser
+
+2022-06-10 02:50:14 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-10 02:50:14 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-10 02:50:16 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-10 02:50:16 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-10 02:50:16 WARN  Logger:222 - 
+2022-06-10 02:50:16 WARN  Logger:233 - loc.test.failed
+2022-06-10 02:50:16 WARN  Logger:222 - 
+2022-06-10 02:51:59 INFO  Logger:212 - loc.browser.ready
+2022-06-10 02:51:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:51:59 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-10 02:51:59 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-10 02:51:59 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-10 02:51:59 INFO  Logger:212 - Open the Browser
+
+2022-06-10 02:51:59 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-10 02:51:59 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-10 02:52:01 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-10 02:52:01 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-10 02:52:02 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-10 02:52:02 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-10 02:52:06 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-10 02:52:06 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-10 02:52:17 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-10 02:52:17 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-10 02:52:18 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-10 02:52:18 INFO  Logger:212 - Click "Download Steam!"
+2022-06-10 02:52:20 INFO  Logger:212 - 
+2022-06-10 02:52:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-10 02:52:20 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-10 02:52:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-10 02:52:20 INFO  Logger:212 - 
+2022-06-11 13:28:03 INFO  Logger:212 - loc.browser.ready
+2022-06-11 13:28:03 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 13:28:03 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 13:28:03 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 13:28:03 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 13:28:03 INFO  Logger:212 - Open the Browser
+
+2022-06-11 13:28:03 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 13:28:03 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 13:28:06 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 13:28:06 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-11 13:28:07 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 13:28:07 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-11 13:28:10 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 13:28:10 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-11 13:28:20 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 13:28:20 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-11 13:28:21 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 13:28:21 INFO  Logger:212 - Click "Download Steam!"
+2022-06-11 13:28:23 INFO  Logger:212 - 
+2022-06-11 13:28:23 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 13:28:23 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 13:28:23 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 13:28:23 INFO  Logger:212 - 
+2022-06-11 13:55:27 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 13:55:27 INFO  Logger:212 - loc.browser.ready
+2022-06-11 13:55:27 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 13:55:27 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 13:55:27 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 13:55:27 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 13:55:27 INFO  Logger:212 - Open the Browser
+
+2022-06-11 13:55:27 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 13:55:27 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 13:55:32 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 13:55:32 INFO  Logger:212 - Click the "language" drop-down button and select "English" from the list.
+
+2022-06-11 13:55:33 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 13:55:33 INFO  Logger:212 - Click the "Categories" drop-down menu and click the "Actions" label 
+
+2022-06-11 13:56:04 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 13:56:04 INFO  Logger:212 - Choose the game with the maximum discount and click on it
+
+2022-06-11 13:57:26 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 13:57:26 INFO  Logger:212 - Click on the "Install Steam" button
+
+2022-06-11 13:57:27 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 13:57:27 INFO  Logger:212 - Click "Download Steam!"
+2022-06-11 13:57:33 INFO  Logger:212 - 
+2022-06-11 13:57:33 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 13:57:33 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 13:57:33 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 13:57:33 INFO  Logger:212 - 
+2022-06-11 13:57:33 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:12:29 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:12:29 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:12:30 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:12:30 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:12:30 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:12:30 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:12:30 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:12:30 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:12:30 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:12:35 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:12:35 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:12:45 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:13:25 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:13:28 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:13:35 INFO  Logger:212 - 
+2022-06-11 14:13:35 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:13:35 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:13:35 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:13:35 INFO  Logger:212 - 
+2022-06-11 14:13:35 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:17:22 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:17:22 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:17:23 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:17:23 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:17:23 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:17:23 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:17:23 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:17:23 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:17:23 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:17:28 INFO  Logger:212 - loc.form.appears in 140msec
+2022-06-11 14:17:28 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:17:29 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:17:40 INFO  Logger:212 - loc.form.appears in 87msec
+2022-06-11 14:17:40 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:18:19 INFO  Logger:212 - loc.form.appears in 80msec
+2022-06-11 14:18:19 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:18:21 INFO  Logger:212 - loc.form.appears in 82msec
+2022-06-11 14:18:21 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:18:27 INFO  Logger:212 - 
+2022-06-11 14:18:27 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:18:27 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:18:27 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:18:27 INFO  Logger:212 - 
+2022-06-11 14:18:28 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:20:49 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:20:49 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:20:49 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:20:49 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:20:49 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:20:49 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:20:49 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:20:49 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:20:49 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:20:54 INFO  Logger:212 - loc.form.appears in 182msec
+2022-06-11 14:20:54 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:20:54 WARN  Logger:222 - 
+2022-06-11 14:20:54 WARN  Logger:233 - loc.test.failed
+2022-06-11 14:20:54 WARN  Logger:222 - 
+2022-06-11 14:20:54 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:21:19 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:21:19 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:21:19 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:21:19 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:21:19 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:21:19 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:21:19 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:21:19 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:21:19 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:21:26 INFO  Logger:212 - loc.form.appears in 56msec
+2022-06-11 14:21:26 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:21:26 WARN  Logger:222 - 
+2022-06-11 14:21:26 WARN  Logger:233 - loc.test.failed
+2022-06-11 14:21:26 WARN  Logger:222 - 
+2022-06-11 14:21:27 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:21:48 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:21:48 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:21:48 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:21:48 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:21:48 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:21:48 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:21:48 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:21:48 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:21:48 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:21:52 INFO  Logger:212 - loc.form.appears in 168msec
+2022-06-11 14:21:52 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:21:53 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:22:05 INFO  Logger:212 - loc.form.appears in 26msec
+2022-06-11 14:22:05 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:22:44 INFO  Logger:212 - loc.form.appears in 67msec
+2022-06-11 14:22:44 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:22:45 INFO  Logger:212 - loc.form.appears in 25msec
+2022-06-11 14:22:45 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:22:54 INFO  Logger:212 - 
+2022-06-11 14:22:54 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:22:54 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:22:54 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:22:54 INFO  Logger:212 - 
+2022-06-11 14:22:54 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:27:38 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:27:38 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:27:38 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:27:38 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:27:38 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:27:38 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:27:38 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:27:38 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:27:38 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:27:42 INFO  Logger:212 - loc.form.appears in 87msec
+2022-06-11 14:27:42 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:27:43 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:27:57 INFO  Logger:212 - loc.form.appears in 70msec
+2022-06-11 14:27:57 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:28:42 INFO  Logger:212 - loc.form.appears in 89msec
+2022-06-11 14:28:42 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:28:43 INFO  Logger:212 - loc.form.appears in 77msec
+2022-06-11 14:28:43 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:28:53 INFO  Logger:212 - 
+2022-06-11 14:28:53 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:28:53 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:28:53 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:28:53 INFO  Logger:212 - 
+2022-06-11 14:28:53 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:43:14 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:43:14 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:43:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:43:14 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:43:14 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:43:14 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:43:14 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:43:14 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:43:14 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:43:19 INFO  Logger:212 - loc.form.appears in 80msec
+2022-06-11 14:43:19 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:43:19 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:43:20 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:43:20 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:43:20 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:43:34 INFO  Logger:212 - loc.form.appears in 77msec
+2022-06-11 14:43:34 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:43:34 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:44:12 INFO  Logger:212 - loc.form.appears in 27msec
+2022-06-11 14:44:12 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:44:12 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:44:14 INFO  Logger:212 - loc.form.appears in 76msec
+2022-06-11 14:44:14 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:44:14 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:44:20 INFO  Logger:212 - 
+2022-06-11 14:44:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:44:20 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:44:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:44:20 INFO  Logger:212 - 
+2022-06-11 14:44:20 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:49:46 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:49:46 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:49:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:49:46 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:49:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:49:46 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:49:46 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:49:46 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:49:46 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:49:51 INFO  Logger:212 - loc.form.appears in 88msec
+2022-06-11 14:49:51 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:49:51 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:49:52 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:49:52 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:49:52 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:50:02 INFO  Logger:212 - loc.form.appears in 80msec
+2022-06-11 14:50:02 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:50:02 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:50:40 INFO  Logger:212 - loc.form.appears in 91msec
+2022-06-11 14:50:40 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:50:40 INFO  Logger:212 - loc.button 'Install steam' :: loc.clicking
+2022-06-11 14:50:42 INFO  Logger:212 - loc.form.appears in 30msec
+2022-06-11 14:50:42 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:50:42 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:50:48 INFO  Logger:212 - 
+2022-06-11 14:50:48 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:50:48 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:50:48 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:50:48 INFO  Logger:212 - 
+2022-06-11 14:50:48 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:51:50 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:51:50 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:51:51 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:51:51 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:51:51 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:51:51 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:51:51 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:51:51 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:51:51 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:51:58 INFO  Logger:212 - loc.form.appears in 87msec
+2022-06-11 14:51:58 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:51:58 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:51:58 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:51:58 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:51:59 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:52:14 INFO  Logger:212 - loc.form.appears in 102msec
+2022-06-11 14:52:14 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:52:15 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:52:54 INFO  Logger:212 - loc.form.appears in 92msec
+2022-06-11 14:52:54 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:52:54 INFO  Logger:212 - loc.button 'Install steam' :: loc.clicking
+2022-06-11 14:52:56 INFO  Logger:212 - loc.form.appears in 24msec
+2022-06-11 14:52:56 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:52:56 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:53:03 INFO  Logger:212 - 
+2022-06-11 14:53:03 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:53:03 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:53:03 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:53:03 INFO  Logger:212 - 
+2022-06-11 14:53:03 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 14:53:54 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 14:53:54 INFO  Logger:212 - loc.browser.ready
+2022-06-11 14:53:54 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:53:54 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 14:53:54 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 14:53:54 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 14:53:54 INFO  Logger:212 - Open the Browser
+
+2022-06-11 14:53:54 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 14:53:54 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 14:53:59 INFO  Logger:212 - loc.form.appears in 110msec
+2022-06-11 14:53:59 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 14:53:59 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:54:00 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 14:54:00 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:54:00 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:54:17 INFO  Logger:212 - loc.form.appears in 88msec
+2022-06-11 14:54:17 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:54:18 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 14:54:55 INFO  Logger:212 - loc.form.appears in 111msec
+2022-06-11 14:54:55 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 14:54:55 INFO  Logger:212 - loc.button 'Install steam' :: loc.clicking
+2022-06-11 14:54:58 INFO  Logger:212 - loc.form.appears in 83msec
+2022-06-11 14:54:58 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 14:54:58 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 14:55:04 INFO  Logger:212 - 
+2022-06-11 14:55:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:55:04 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 14:55:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 14:55:04 INFO  Logger:212 - 
+2022-06-11 14:55:04 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:09:09 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:09:09 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:09:09 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:09:09 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:09:09 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:09:09 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:09:09 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:09:09 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:09:09 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:09:20 INFO  Logger:212 - loc.form.appears in 59msec
+2022-06-11 15:09:20 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 15:09:20 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 15:09:21 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 15:09:21 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 15:09:21 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 15:09:37 INFO  Logger:212 - loc.form.appears in 75msec
+2022-06-11 15:09:37 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 15:09:37 INFO  Logger:212 - loc.label 'null' :: loc.clicking
+2022-06-11 15:10:16 INFO  Logger:212 - loc.form.appears in 98msec
+2022-06-11 15:10:16 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 15:10:17 INFO  Logger:212 - loc.button 'Install steam' :: loc.clicking
+2022-06-11 15:10:18 INFO  Logger:212 - loc.form.appears in 28msec
+2022-06-11 15:10:18 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 15:10:18 INFO  Logger:212 - loc.button 'null' :: loc.clicking
+2022-06-11 15:10:25 INFO  Logger:212 - 
+2022-06-11 15:10:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:10:25 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:10:25 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:10:25 INFO  Logger:212 - 
+2022-06-11 15:10:25 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:26:21 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:26:21 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:26:21 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:26:21 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:26:21 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:26:21 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:26:21 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:26:21 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:26:21 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:26:28 INFO  Logger:212 - loc.form.appears in 142msec
+2022-06-11 15:26:28 INFO  Logger:212 - --------==[ loc.logger.step2 ]==--------
+2022-06-11 15:26:28 INFO  Logger:212 - loc.button 'Language dropdown' :: loc.clicking
+2022-06-11 15:26:29 INFO  Logger:212 - --------==[ loc.logger.step3 ]==--------
+2022-06-11 15:26:29 INFO  Logger:212 - loc.label 'Store navigation label' :: loc.clicking
+2022-06-11 15:26:30 INFO  Logger:212 - loc.label 'Store navigation menu label' :: loc.clicking
+2022-06-11 15:26:43 INFO  Logger:212 - loc.form.appears in 80msec
+2022-06-11 15:26:43 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 15:26:43 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:27:32 INFO  Logger:212 - loc.form.appears in 71msec
+2022-06-11 15:27:32 INFO  Logger:212 - --------==[ loc.logger.step4 ]==--------
+2022-06-11 15:27:32 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:27:34 INFO  Logger:212 - loc.form.appears in 24msec
+2022-06-11 15:27:34 INFO  Logger:212 - --------==[ loc.logger.step5 ]==--------
+2022-06-11 15:27:34 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:27:40 INFO  Logger:212 - 
+2022-06-11 15:27:40 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:27:40 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:27:40 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:27:40 INFO  Logger:212 - 
+2022-06-11 15:27:41 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:29:17 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:29:17 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:29:18 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:29:18 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:29:18 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:29:18 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:29:18 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:29:18 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:29:18 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:29:28 INFO  Logger:212 - loc.form.appears in 90msec
+2022-06-11 15:29:28 INFO  Logger:212 - loc.button 'Language dropdown' :: loc.clicking
+2022-06-11 15:29:28 INFO  Logger:212 - loc.label 'Store navigation label' :: loc.clicking
+2022-06-11 15:29:29 INFO  Logger:212 - loc.label 'Store navigation menu label' :: loc.clicking
+2022-06-11 15:29:44 INFO  Logger:212 - loc.form.appears in 71msec
+2022-06-11 15:29:45 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:30:33 INFO  Logger:212 - loc.form.appears in 94msec
+2022-06-11 15:30:33 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:30:36 INFO  Logger:212 - loc.form.appears in 76msec
+2022-06-11 15:30:36 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:30:44 INFO  Logger:212 - 
+2022-06-11 15:30:44 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:30:44 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:30:44 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:30:44 INFO  Logger:212 - 
+2022-06-11 15:30:44 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:33:52 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:33:52 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:33:52 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:33:52 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:33:52 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:33:52 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:33:52 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:33:52 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:33:52 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:33:59 INFO  Logger:212 - loc.form.appears in 192msec
+2022-06-11 15:33:59 INFO  Logger:212 - loc.button 'language dropdown' :: loc.clicking
+2022-06-11 15:34:00 INFO  Logger:212 - loc.label 'store navigation label' :: loc.clicking
+2022-06-11 15:34:00 INFO  Logger:212 - loc.label 'store navigation menu label' :: loc.clicking
+2022-06-11 15:34:14 INFO  Logger:212 - loc.label 'store navigation menu label' :: loc.clicking
+2022-06-11 15:34:14 INFO  Logger:212 - loc.form.appears in 80msec
+2022-06-11 15:34:15 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:34:55 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:34:55 INFO  Logger:212 - loc.form.appears in 95msec
+2022-06-11 15:34:55 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:35:00 INFO  Logger:212 - loc.form.appears in 78msec
+2022-06-11 15:35:00 INFO  Logger:212 - loc.button 'install steam button' :: loc.clicking
+2022-06-11 15:35:08 INFO  Logger:212 - 
+2022-06-11 15:35:08 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:35:08 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:35:08 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:35:08 INFO  Logger:212 - 
+2022-06-11 15:35:09 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:35:22 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:35:22 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:35:22 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:35:22 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:35:22 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:35:22 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:35:22 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:35:22 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:35:22 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:35:30 INFO  Logger:212 - loc.form.appears in 100msec
+2022-06-11 15:35:30 INFO  Logger:212 - loc.button 'language dropdown' :: loc.clicking
+2022-06-11 15:35:30 INFO  Logger:212 - loc.label 'store navigation label' :: loc.clicking
+2022-06-11 15:35:31 INFO  Logger:212 - loc.label 'store navigation menu label' :: loc.clicking
+2022-06-11 15:35:52 INFO  Logger:212 - loc.form.appears in 71msec
+2022-06-11 15:35:52 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:36:39 INFO  Logger:212 - loc.form.appears in 95msec
+2022-06-11 15:36:39 INFO  Logger:212 - loc.button 'Install steam button' :: loc.clicking
+2022-06-11 15:36:42 INFO  Logger:212 - loc.form.appears in 73msec
+2022-06-11 15:36:42 INFO  Logger:212 - loc.button 'install steam button' :: loc.clicking
+2022-06-11 15:36:50 INFO  Logger:212 - 
+2022-06-11 15:36:50 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:36:50 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:36:50 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:36:50 INFO  Logger:212 - 
+2022-06-11 15:36:51 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:38:17 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:38:17 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:38:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:38:17 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:38:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:38:17 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:38:17 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:38:17 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:38:17 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:38:24 INFO  Logger:212 - loc.form.appears in 55msec
+2022-06-11 15:38:24 INFO  Logger:212 - loc.button 'language dropdown' :: loc.clicking
+2022-06-11 15:38:24 INFO  Logger:212 - loc.label 'store navigation label' :: loc.clicking
+2022-06-11 15:38:26 INFO  Logger:212 - loc.label 'store navigation menu label' :: loc.clicking
+2022-06-11 15:38:43 INFO  Logger:212 - loc.form.appears in 87msec
+2022-06-11 15:38:43 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:39:31 INFO  Logger:212 - loc.form.appears in 74msec
+2022-06-11 15:39:31 INFO  Logger:212 - loc.button 'install steam button' :: loc.clicking
+2022-06-11 15:39:32 INFO  Logger:212 - loc.form.appears in 78msec
+2022-06-11 15:39:32 INFO  Logger:212 - loc.button 'download steam button' :: loc.clicking
+2022-06-11 15:39:44 INFO  Logger:212 - 
+2022-06-11 15:39:44 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:39:44 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:39:44 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:39:44 INFO  Logger:212 - 
+2022-06-11 15:39:44 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:44:40 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:44:40 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:44:40 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:44:40 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:44:40 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:44:40 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:44:40 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:44:40 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:44:40 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:44:48 INFO  Logger:212 - loc.form.appears in 37msec
+2022-06-11 15:44:48 INFO  Logger:212 - loc.button 'language switcher dropdown' :: loc.clicking
+2022-06-11 15:44:49 INFO  Logger:212 - loc.label 'store navigation label' :: loc.clicking
+2022-06-11 15:44:50 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' :: loc.clicking
+2022-06-11 15:45:01 INFO  Logger:212 - loc.form.appears in 69msec
+2022-06-11 15:45:02 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:45:52 INFO  Logger:212 - loc.form.appears in 95msec
+2022-06-11 15:45:53 INFO  Logger:212 - loc.button 'install steam button' :: loc.clicking
+2022-06-11 15:45:56 INFO  Logger:212 - loc.form.appears in 79msec
+2022-06-11 15:45:56 INFO  Logger:212 - loc.button 'download steam button' :: loc.clicking
+2022-06-11 15:46:04 INFO  Logger:212 - 
+2022-06-11 15:46:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:46:04 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:46:04 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:46:04 INFO  Logger:212 - 
+2022-06-11 15:46:05 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:49:10 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:49:10 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:49:10 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:49:10 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:49:10 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:49:10 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:49:10 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:49:10 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:49:10 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:49:18 INFO  Logger:212 - loc.form.appears in 72msec
+2022-06-11 15:49:19 INFO  Logger:212 - loc.button 'language switcher dropdown' :: loc.clicking
+2022-06-11 15:49:19 INFO  Logger:212 - loc.label 'store navigation label' :: loc.clicking
+2022-06-11 15:49:19 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' :: loc.clicking
+2022-06-11 15:49:31 INFO  Logger:212 - loc.form.appears in 78msec
+2022-06-11 15:49:31 INFO  Logger:212 - loc.label 'max discount label' :: loc.clicking
+2022-06-11 15:50:11 INFO  Logger:212 - loc.form.appears in 114msec
+2022-06-11 15:50:12 INFO  Logger:212 - loc.button 'install steam button' :: loc.clicking
+2022-06-11 15:50:14 INFO  Logger:212 - loc.form.appears in 27msec
+2022-06-11 15:50:14 INFO  Logger:212 - loc.button 'download steam button' :: loc.clicking
+2022-06-11 15:50:20 INFO  Logger:212 - 
+2022-06-11 15:50:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:50:20 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:50:20 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:50:20 INFO  Logger:212 - 
+2022-06-11 15:50:21 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:52:56 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:52:56 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:52:56 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:52:56 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:52:56 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:52:56 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:52:56 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:52:56 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:52:56 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:53:02 INFO  Logger:212 - loc.form.appears in 113msec
+2022-06-11 15:53:02 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 15:53:03 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 15:53:03 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 15:53:15 INFO  Logger:212 - loc.form.appears in 83msec
+2022-06-11 15:53:15 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 15:54:03 INFO  Logger:212 - loc.form.appears in 28msec
+2022-06-11 15:54:03 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 15:54:08 INFO  Logger:212 - loc.form.appears in 38msec
+2022-06-11 15:54:08 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 15:54:27 INFO  Logger:212 - 
+2022-06-11 15:54:27 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:54:27 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:54:27 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:54:27 INFO  Logger:212 - 
+2022-06-11 15:54:27 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 15:56:25 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 15:56:25 INFO  Logger:212 - loc.browser.ready
+2022-06-11 15:56:25 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:56:25 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 15:56:25 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 15:56:25 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 15:56:25 INFO  Logger:212 - Open the Browser
+
+2022-06-11 15:56:25 INFO  Logger:212 - --------==[ loc.logger.step1 ]==--------
+2022-06-11 15:56:25 INFO  Logger:212 - Logging into https://store.steampowered.com
+
+2022-06-11 15:56:33 INFO  Logger:212 - loc.form.appears in 142msec
+2022-06-11 15:56:33 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 15:56:33 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 15:56:34 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 15:56:50 INFO  Logger:212 - loc.form.appears in 91msec
+2022-06-11 15:56:51 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 15:58:05 INFO  Logger:212 - loc.form.appears in 51msec
+2022-06-11 15:58:05 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 15:58:06 INFO  Logger:212 - loc.form.appears in 22msec
+2022-06-11 15:58:06 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 15:58:13 INFO  Logger:212 - 
+2022-06-11 15:58:13 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:58:13 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 15:58:13 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 15:58:13 INFO  Logger:212 - 
+2022-06-11 15:58:13 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 16:53:08 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 16:53:08 INFO  Logger:212 - loc.browser.ready
+2022-06-11 16:53:08 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 16:53:08 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 16:53:08 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 16:53:08 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 16:53:08 INFO  Logger:212 - Open the Browser
+
+2022-06-11 16:53:11 INFO  Logger:212 - loc.form.appears in 109msec
+2022-06-11 16:53:11 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 16:53:11 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 16:53:12 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 16:53:16 INFO  Logger:212 - loc.form.appears in 78msec
+2022-06-11 16:53:16 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 16:53:25 INFO  Logger:212 - loc.form.appears in 82msec
+2022-06-11 16:53:25 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 16:53:26 INFO  Logger:212 - loc.form.appears in 19msec
+2022-06-11 16:53:26 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 16:53:28 INFO  Logger:212 - 
+2022-06-11 16:53:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 16:53:28 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 16:53:28 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 16:53:28 INFO  Logger:212 - 
+2022-06-11 16:53:29 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:01:57 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:01:57 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:01:57 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:01:57 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:01:57 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:01:57 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:01:57 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:02:00 INFO  Logger:212 - loc.form.appears in 40msec
+2022-06-11 17:02:00 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:02:01 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:02:01 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:02:05 INFO  Logger:212 - loc.form.appears in 63msec
+2022-06-11 17:02:06 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:02:15 INFO  Logger:212 - loc.form.appears in 87msec
+2022-06-11 17:02:15 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:02:16 INFO  Logger:212 - loc.form.appears in 21msec
+2022-06-11 17:02:16 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:02:18 INFO  Logger:212 - 
+2022-06-11 17:02:18 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:02:18 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:02:18 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:02:18 INFO  Logger:212 - 
+2022-06-11 17:02:19 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:02:50 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:02:50 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:02:50 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:02:50 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:02:50 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:02:50 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:02:50 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:02:52 INFO  Logger:212 - loc.form.appears in 140msec
+2022-06-11 17:02:52 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:02:53 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:02:53 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:02:56 INFO  Logger:212 - loc.form.appears in 78msec
+2022-06-11 17:02:56 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:03:06 INFO  Logger:212 - loc.form.appears in 77msec
+2022-06-11 17:03:06 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:03:07 INFO  Logger:212 - loc.form.appears in 18msec
+2022-06-11 17:03:07 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:03:08 INFO  Logger:212 - 
+2022-06-11 17:03:08 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:03:08 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:03:08 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:03:08 INFO  Logger:212 - 
+2022-06-11 17:03:09 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:03:53 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:03:53 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:03:53 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:03:53 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:03:53 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:03:53 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:03:53 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:03:55 INFO  Logger:212 - loc.form.appears in 131msec
+2022-06-11 17:03:55 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:03:56 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:03:56 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:04:01 INFO  Logger:212 - loc.form.appears in 53msec
+2022-06-11 17:04:01 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:04:11 INFO  Logger:212 - loc.form.appears in 85msec
+2022-06-11 17:04:11 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:04:12 INFO  Logger:212 - loc.form.appears in 33msec
+2022-06-11 17:04:12 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:04:13 INFO  Logger:212 - 
+2022-06-11 17:04:13 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:04:13 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:04:13 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:04:13 INFO  Logger:212 - 
+2022-06-11 17:04:14 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:04:58 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:04:58 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:04:58 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:04:58 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:04:58 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:04:58 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:04:58 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:05:00 INFO  Logger:212 - loc.form.page in 57msec
+2022-06-11 17:05:00 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:05:01 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:05:01 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:05:05 INFO  Logger:212 - loc.form.page in 78msec
+2022-06-11 17:05:06 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:05:16 INFO  Logger:212 - loc.form.page in 81msec
+2022-06-11 17:05:16 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:05:17 INFO  Logger:212 - loc.form.page in 34msec
+2022-06-11 17:05:17 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:05:19 INFO  Logger:212 - 
+2022-06-11 17:05:19 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:05:19 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:05:19 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:05:19 INFO  Logger:212 - 
+2022-06-11 17:05:20 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:06:26 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:06:26 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:06:26 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:06:26 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:06:26 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:06:26 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:06:26 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:06:29 INFO  Logger:212 - loc.page.appears in 128ms-ec
+2022-06-11 17:06:29 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:06:29 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:06:29 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:06:34 INFO  Logger:212 - loc.page.appears in 78ms-ec
+2022-06-11 17:06:34 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:06:43 INFO  Logger:212 - loc.page.appears in 79ms-ec
+2022-06-11 17:06:43 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:06:44 INFO  Logger:212 - loc.page.appears in 28ms-ec
+2022-06-11 17:06:44 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:06:46 INFO  Logger:212 - 
+2022-06-11 17:06:46 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:06:46 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:06:46 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:06:46 INFO  Logger:212 - 
+2022-06-11 17:06:47 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:10:41 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:10:41 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:10:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:10:41 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:10:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:10:41 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:10:41 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:10:43 INFO  Logger:212 - loc.page.appears in 129msec
+2022-06-11 17:10:43 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:10:44 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:10:44 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:10:48 INFO  Logger:212 - loc.page.appears in 78msec
+2022-06-11 17:10:48 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:10:58 INFO  Logger:212 - loc.page.appears in 79msec
+2022-06-11 17:10:58 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:10:59 INFO  Logger:212 - loc.page.appears in 28msec
+2022-06-11 17:10:59 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:11:01 INFO  Logger:212 - 
+2022-06-11 17:11:01 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:11:01 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:11:01 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:11:01 INFO  Logger:212 - 
+2022-06-11 17:11:01 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:12:08 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:12:08 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:12:08 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:12:08 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:12:08 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:12:08 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:12:08 INFO  Logger:212 - Open the Browser
+
+2022-06-11 17:12:11 INFO  Logger:212 - loc.page.appears in 133msec
+2022-06-11 17:12:11 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:12:12 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:12:12 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:12:17 INFO  Logger:212 - loc.page.appears in 78msec
+2022-06-11 17:12:17 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:12:34 INFO  Logger:212 - loc.page.appears in 67msec
+2022-06-11 17:12:34 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:12:35 INFO  Logger:212 - loc.page.appears in 24msec
+2022-06-11 17:12:35 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:12:38 INFO  Logger:212 - 
+2022-06-11 17:12:38 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:12:38 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:12:38 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:12:38 INFO  Logger:212 - 
+2022-06-11 17:12:38 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:17:17 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:17:17 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:17:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:17:17 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:17:17 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:17:17 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:17:21 INFO  Logger:212 - loc.page.appears in 98msec
+2022-06-11 17:17:21 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:17:22 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:17:22 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:17:26 INFO  Logger:212 - loc.page.appears in 67msec
+2022-06-11 17:17:27 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:17:39 INFO  Logger:212 - loc.page.appears in 112msec
+2022-06-11 17:17:40 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:17:41 INFO  Logger:212 - loc.page.appears in 29msec
+2022-06-11 17:17:41 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:17:43 INFO  Logger:212 - 
+2022-06-11 17:17:43 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:17:43 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:17:43 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:17:43 INFO  Logger:212 - 
+2022-06-11 17:17:44 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:50:46 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:50:46 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:50:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:50:46 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:50:46 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:50:46 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:50:50 INFO  Logger:212 - loc.page.appears in 81msec
+2022-06-11 17:50:50 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:50:50 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:50:50 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:50:56 INFO  Logger:212 - loc.page.appears in 78msec
+2022-06-11 17:50:57 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:51:08 INFO  Logger:212 - loc.page.appears in 65msec
+2022-06-11 17:51:08 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:51:10 INFO  Logger:212 - loc.page.appears in 33msec
+2022-06-11 17:51:10 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:51:11 INFO  Logger:212 - 
+2022-06-11 17:51:11 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:51:11 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:51:11 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:51:11 INFO  Logger:212 - 
+2022-06-11 17:51:12 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:56:41 INFO  Logger:212 - loc.browser.constructed
+2022-06-11 17:56:41 INFO  Logger:212 - loc.browser.ready
+2022-06-11 17:56:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:56:41 INFO  Logger:212 - =====================  loc.logger.test.case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:56:41 INFO  Logger:212 - -------------------------------------------------------------------------------------------------
+2022-06-11 17:56:41 INFO  Logger:212 - --------==[ loc.logger.test.preconditions ]==--------
+2022-06-11 17:56:44 INFO  Logger:212 - loc.page.appears in 61msec
+2022-06-11 17:56:44 INFO  Logger:212 - loc.button 'language switcher dropdown' -- loc.clicking
+2022-06-11 17:56:44 INFO  Logger:212 - loc.label 'store navigation label' -- loc.clicking
+2022-06-11 17:56:44 INFO  Logger:212 - loc.label 'store navigation genre popup menu label' -- loc.clicking
+2022-06-11 17:56:50 INFO  Logger:212 - loc.page.appears in 63msec
+2022-06-11 17:56:50 INFO  Logger:212 - loc.label 'max discount label' -- loc.clicking
+2022-06-11 17:57:02 INFO  Logger:212 - loc.page.appears in 23msec
+2022-06-11 17:57:02 INFO  Logger:212 - loc.button 'install steam button' -- loc.clicking
+2022-06-11 17:57:03 INFO  Logger:212 - loc.page.appears in 25msec
+2022-06-11 17:57:03 INFO  Logger:212 - loc.button 'download steam button' -- loc.clicking
+2022-06-11 17:57:05 INFO  Logger:212 - 
+2022-06-11 17:57:05 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:57:05 INFO  Logger:212 - ***** loc.logger.test.case: 'steam.test.DownloadSteamTest' loc.logger.test.passed! *****
+2022-06-11 17:57:05 INFO  Logger:212 - ****************************************************************************************
+2022-06-11 17:57:05 INFO  Logger:212 - 
+2022-06-11 17:57:06 INFO  Logger:212 - loc.browser.driver.qiut
+2022-06-11 17:58:06 INFO  Logger:212 - browser driver was constructed
+2022-06-11 17:58:06 INFO  Logger:212 - Browser 'chrome' ready...
+2022-06-11 17:58:07 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:58:07 INFO  Logger:212 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:58:07 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:58:07 INFO  Logger:212 - --------==[ Preconditions ]==--------
+2022-06-11 17:58:11 INFO  Logger:212 - loc.page.appears in 82msec
+2022-06-11 17:58:11 INFO  Logger:212 - Button 'language switcher dropdown' -- Clicking
+2022-06-11 17:58:11 INFO  Logger:212 - Label 'store navigation label' -- Clicking
+2022-06-11 17:58:11 INFO  Logger:212 - Label 'store navigation genre popup menu label' -- Clicking
+2022-06-11 17:58:19 INFO  Logger:212 - loc.page.appears in 75msec
+2022-06-11 17:58:19 INFO  Logger:212 - Label 'max discount label' -- Clicking
+2022-06-11 17:58:36 INFO  Logger:212 - loc.page.appears in 26msec
+2022-06-11 17:58:36 INFO  Logger:212 - Button 'install steam button' -- Clicking
+2022-06-11 17:58:38 INFO  Logger:212 - loc.page.appears in 25msec
+2022-06-11 17:58:38 INFO  Logger:212 - Button 'download steam button' -- Clicking
+2022-06-11 17:58:40 INFO  Logger:212 - 
+2022-06-11 17:58:40 INFO  Logger:212 - *************************************************************
+2022-06-11 17:58:40 INFO  Logger:212 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-11 17:58:40 INFO  Logger:212 - *************************************************************
+2022-06-11 17:58:40 INFO  Logger:212 - 
+2022-06-11 17:58:40 INFO  Logger:212 - driver.quit...
+2022-06-11 17:58:51 INFO  Logger:212 - browser driver was constructed
+2022-06-11 17:58:51 INFO  Logger:212 - Browser 'chrome' ready...
+2022-06-11 17:58:51 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:58:51 INFO  Logger:212 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:58:51 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:58:51 INFO  Logger:212 - --------==[ Preconditions ]==--------
+2022-06-11 17:58:55 INFO  Logger:212 - loc.page.appears in 95msec
+2022-06-11 17:58:55 INFO  Logger:212 - Button 'language switcher dropdown' -- Clicking
+2022-06-11 17:58:56 INFO  Logger:212 - Label 'store navigation label' -- Clicking
+2022-06-11 17:58:56 INFO  Logger:212 - Label 'store navigation genre popup menu label' -- Clicking
+2022-06-11 17:59:02 INFO  Logger:212 - loc.page.appears in 78msec
+2022-06-11 17:59:02 INFO  Logger:212 - Label 'max discount label' -- Clicking
+2022-06-11 17:59:16 INFO  Logger:212 - loc.page.appears in 29msec
+2022-06-11 17:59:16 INFO  Logger:212 - Button 'install steam button' -- Clicking
+2022-06-11 17:59:19 INFO  Logger:212 - loc.page.appears in 29msec
+2022-06-11 17:59:19 INFO  Logger:212 - Button 'download steam button' -- Clicking
+2022-06-11 17:59:21 INFO  Logger:212 - 
+2022-06-11 17:59:21 INFO  Logger:212 - *************************************************************
+2022-06-11 17:59:21 INFO  Logger:212 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-11 17:59:21 INFO  Logger:212 - *************************************************************
+2022-06-11 17:59:21 INFO  Logger:212 - 
+2022-06-11 17:59:22 INFO  Logger:212 - driver.quit...
+2022-06-11 17:59:39 INFO  Logger:212 - browser driver was constructed
+2022-06-11 17:59:39 INFO  Logger:212 - Browser 'chrome' ready...
+2022-06-11 17:59:39 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:59:39 INFO  Logger:212 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-11 17:59:39 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-11 17:59:39 INFO  Logger:212 - --------==[ Preconditions ]==--------
+2022-06-11 17:59:42 INFO  Logger:212 - Page 'Home Page' appears in 55msec
+2022-06-11 17:59:42 INFO  Logger:212 - Button 'language switcher dropdown' -- Clicking
+2022-06-11 17:59:43 INFO  Logger:212 - Label 'store navigation label' -- Clicking
+2022-06-11 17:59:43 INFO  Logger:212 - Label 'store navigation genre popup menu label' -- Clicking
+2022-06-11 17:59:50 INFO  Logger:212 - Page 'Category page' appears in 63msec
+2022-06-11 17:59:51 INFO  Logger:212 - Label 'max discount label' -- Clicking
+2022-06-11 18:00:05 INFO  Logger:212 - Page 'Game Page' appears in 88msec
+2022-06-11 18:00:05 INFO  Logger:212 - Button 'install steam button' -- Clicking
+2022-06-11 18:00:06 INFO  Logger:212 - Page 'Install Page' appears in 18msec
+2022-06-11 18:00:06 INFO  Logger:212 - Button 'download steam button' -- Clicking
+2022-06-11 18:00:07 INFO  Logger:212 - 
+2022-06-11 18:00:07 INFO  Logger:212 - *************************************************************
+2022-06-11 18:00:07 INFO  Logger:212 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-11 18:00:07 INFO  Logger:212 - *************************************************************
+2022-06-11 18:00:07 INFO  Logger:212 - 
+2022-06-11 18:00:08 INFO  Logger:212 - driver.quit...
+2022-06-12 10:14:21 INFO  Logger:212 - browser driver was constructed
+2022-06-12 10:14:21 INFO  Logger:212 - Browser 'chrome' ready...
+2022-06-12 10:14:21 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-12 10:14:21 INFO  Logger:212 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 10:14:21 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-12 10:14:21 INFO  Logger:212 - --------==[ Preconditions ]==--------
+2022-06-12 10:14:24 INFO  Logger:212 - Page 'Home Page' appears in 128msec
+2022-06-12 10:14:24 INFO  Logger:212 - Button 'language switcher dropdown' -- Clicking
+2022-06-12 10:14:25 INFO  Logger:212 - Label 'store navigation label' -- Clicking
+2022-06-12 10:14:25 INFO  Logger:212 - Label 'store navigation genre popup menu label' -- Clicking
+2022-06-12 10:14:30 INFO  Logger:212 - Page 'Category page' appears in 77msec
+2022-06-12 10:14:30 INFO  Logger:212 - Label 'max discount label' -- Clicking
+2022-06-12 10:14:47 INFO  Logger:212 - Page 'Game Page' appears in 75msec
+2022-06-12 10:14:47 INFO  Logger:212 - Button 'install steam button' -- Clicking
+2022-06-12 10:14:51 INFO  Logger:212 - Page 'Install Page' appears in 76msec
+2022-06-12 10:14:51 INFO  Logger:212 - Button 'download steam button' -- Clicking
+2022-06-12 10:14:53 INFO  Logger:212 - 
+2022-06-12 10:14:53 INFO  Logger:212 - *************************************************************
+2022-06-12 10:14:53 INFO  Logger:212 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 10:14:53 INFO  Logger:212 - *************************************************************
+2022-06-12 10:14:53 INFO  Logger:212 - 
+2022-06-12 10:14:54 INFO  Logger:212 - driver.quit...
+2022-06-12 10:16:46 INFO  Logger:212 - browser driver was constructed
+2022-06-12 10:16:46 INFO  Logger:212 - Browser 'chrome' ready...
+2022-06-12 10:16:46 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-12 10:16:46 INFO  Logger:212 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 10:16:46 INFO  Logger:212 - --------------------------------------------------------------------------------------
+2022-06-12 10:16:46 INFO  Logger:212 - --------==[ Preconditions ]==--------
+2022-06-12 10:16:49 INFO  Logger:212 - Page 'Home Page' appears in 193msec
+2022-06-12 10:16:49 INFO  Logger:212 - Button 'language switcher' -- Clicking
+2022-06-12 10:16:49 INFO  Logger:212 - Label 'store navigation' -- Clicking
+2022-06-12 10:16:50 INFO  Logger:212 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 10:16:53 INFO  Logger:212 - Page 'Category page' appears in 79msec
+2022-06-12 10:16:54 INFO  Logger:212 - Label 'max discount' -- Clicking
+2022-06-12 10:17:04 INFO  Logger:212 - Page 'Game Page' appears in 86msec
+2022-06-12 10:17:05 INFO  Logger:212 - Button 'install steam' -- Clicking
+2022-06-12 10:17:06 INFO  Logger:212 - Page 'Install Page' appears in 78msec
+2022-06-12 10:17:06 INFO  Logger:212 - Button 'download steam' -- Clicking
+2022-06-12 10:17:08 INFO  Logger:212 - 
+2022-06-12 10:17:08 INFO  Logger:212 - *************************************************************
+2022-06-12 10:17:08 INFO  Logger:212 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 10:17:08 INFO  Logger:212 - *************************************************************
+2022-06-12 10:17:08 INFO  Logger:212 - 
+2022-06-12 10:17:09 INFO  Logger:212 - driver.quit...
+2022-06-12 10:42:40 INFO  Logger:210 - browser driver was constructed
+2022-06-12 10:42:40 INFO  Logger:210 - Browser 'chrome' ready...
+2022-06-12 10:42:40 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 10:42:40 INFO  Logger:210 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 10:42:40 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 10:42:40 INFO  Logger:210 - --------==[ Preconditions ]==--------
+2022-06-12 10:42:49 INFO  Logger:210 - Page 'Home Page' appears in 135msec
+2022-06-12 10:42:49 INFO  Logger:210 - Button 'language switcher' -- Clicking
+2022-06-12 10:42:50 INFO  Logger:210 - Label 'store navigation' -- Clicking
+2022-06-12 10:42:51 INFO  Logger:210 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 10:43:04 INFO  Logger:210 - Page 'Category page' appears in 37msec
+2022-06-12 10:43:04 INFO  Logger:210 - Label 'max discount' -- Clicking
+2022-06-12 10:43:51 INFO  Logger:210 - Page 'Game Page' appears in 56msec
+2022-06-12 10:43:51 INFO  Logger:210 - Button 'install steam' -- Clicking
+2022-06-12 10:43:53 INFO  Logger:210 - Page 'Install Page' appears in 56msec
+2022-06-12 10:43:53 INFO  Logger:210 - Button 'download steam' -- Clicking
+2022-06-12 10:44:01 INFO  Logger:210 - 
+2022-06-12 10:44:01 INFO  Logger:210 - *************************************************************
+2022-06-12 10:44:01 INFO  Logger:210 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 10:44:01 INFO  Logger:210 - *************************************************************
+2022-06-12 10:44:01 INFO  Logger:210 - 
+2022-06-12 10:44:02 INFO  Logger:210 - driver.quit...
+2022-06-12 11:01:35 INFO  Logger:210 - browser driver was constructed
+2022-06-12 11:01:35 INFO  Logger:210 - Browser 'chrome' ready...
+2022-06-12 11:01:35 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:01:35 INFO  Logger:210 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 11:01:35 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:01:35 INFO  Logger:210 - --------==[ Preconditions ]==--------
+2022-06-12 11:01:44 INFO  Logger:210 - Page 'Home Page' appears in 141msec
+2022-06-12 11:01:44 INFO  Logger:210 - Button 'language choose' -- Clicking
+2022-06-12 11:01:45 INFO  Logger:210 - Label 'store navigation' -- Clicking
+2022-06-12 11:01:45 INFO  Logger:210 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 11:01:59 INFO  Logger:210 - Page 'Category page' appears in 78msec
+2022-06-12 11:01:59 INFO  Logger:210 - Label 'max discount' -- Clicking
+2022-06-12 11:02:45 INFO  Logger:210 - Page 'Game Page' appears in 21msec
+2022-06-12 11:02:45 INFO  Logger:210 - Button 'install steam' -- Clicking
+2022-06-12 11:02:47 INFO  Logger:210 - Page 'Install Page' appears in 24msec
+2022-06-12 11:02:47 INFO  Logger:210 - Button 'download steam' -- Clicking
+2022-06-12 11:02:54 INFO  Logger:210 - 
+2022-06-12 11:02:54 INFO  Logger:210 - *************************************************************
+2022-06-12 11:02:54 INFO  Logger:210 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 11:02:54 INFO  Logger:210 - *************************************************************
+2022-06-12 11:02:54 INFO  Logger:210 - 
+2022-06-12 11:02:55 INFO  Logger:210 - driver.quit...
+2022-06-12 11:03:20 INFO  Logger:210 - browser driver was constructed
+2022-06-12 11:03:20 INFO  Logger:210 - Browser 'chrome' ready...
+2022-06-12 11:03:20 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:03:20 INFO  Logger:210 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 11:03:20 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:03:20 INFO  Logger:210 - --------==[ Preconditions ]==--------
+2022-06-12 11:03:26 INFO  Logger:210 - Page 'Home Page' appears in 176msec
+2022-06-12 11:03:26 INFO  Logger:210 - Button 'switch language' -- Clicking
+2022-06-12 11:03:27 INFO  Logger:210 - Label 'store navigation' -- Clicking
+2022-06-12 11:03:28 INFO  Logger:210 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 11:03:40 INFO  Logger:210 - Page 'Category page' appears in 51msec
+2022-06-12 11:03:41 INFO  Logger:210 - Label 'max discount' -- Clicking
+2022-06-12 11:04:33 INFO  Logger:210 - Page 'Game Page' appears in 92msec
+2022-06-12 11:04:33 INFO  Logger:210 - Button 'install steam' -- Clicking
+2022-06-12 11:04:36 INFO  Logger:210 - Page 'Install Page' appears in 76msec
+2022-06-12 11:04:36 INFO  Logger:210 - Button 'download steam' -- Clicking
+2022-06-12 11:04:45 INFO  Logger:210 - 
+2022-06-12 11:04:45 INFO  Logger:210 - *************************************************************
+2022-06-12 11:04:45 INFO  Logger:210 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 11:04:45 INFO  Logger:210 - *************************************************************
+2022-06-12 11:04:45 INFO  Logger:210 - 
+2022-06-12 11:04:45 INFO  Logger:210 - driver.quit...
+2022-06-12 11:05:05 INFO  Logger:210 - browser driver was constructed
+2022-06-12 11:05:05 INFO  Logger:210 - Browser 'chrome' ready...
+2022-06-12 11:05:05 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:05:05 INFO  Logger:210 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 11:05:05 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 11:05:05 INFO  Logger:210 - --------==[ Preconditions ]==--------
+2022-06-12 11:05:15 INFO  Logger:210 - Page 'Home Page' appears in 157msec
+2022-06-12 11:05:15 INFO  Logger:210 - Button 'switch language' -- Clicking
+2022-06-12 11:05:16 INFO  Logger:210 - Label 'store navigation' -- Clicking
+2022-06-12 11:05:16 INFO  Logger:210 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 11:05:34 INFO  Logger:210 - Page 'Category page' appears in 27msec
+2022-06-12 11:05:34 INFO  Logger:210 - Label 'max discount' -- Clicking
+2022-06-12 11:06:28 INFO  Logger:210 - Page 'Game Page' appears in 38msec
+2022-06-12 11:06:28 INFO  Logger:210 - Button 'install steam' -- Clicking
+2022-06-12 11:06:38 INFO  Logger:210 - Page 'Install Page' appears in 56msec
+2022-06-12 11:06:38 INFO  Logger:210 - Button 'download steam' -- Clicking
+2022-06-12 11:06:43 INFO  Logger:210 - 
+2022-06-12 11:06:43 INFO  Logger:210 - *************************************************************
+2022-06-12 11:06:43 INFO  Logger:210 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 11:06:43 INFO  Logger:210 - *************************************************************
+2022-06-12 11:06:43 INFO  Logger:210 - 
+2022-06-12 11:06:43 INFO  Logger:210 - driver.quit...

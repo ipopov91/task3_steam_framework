@@ -12,11 +12,11 @@ public class CategoryPage extends SteamBasePage {
     private static String recommendedSpecialsDiscountLocator = "//div[@id='specials_container']//div[@class='discount_pct' and contains(text(),'%s')]";
 
     public CategoryPage(String pageLocatorValue) {
-        super(By.xpath(String.format(pageLocator, pageLocatorValue)));
+        super(By.xpath(String.format(pageLocator, pageLocatorValue)), "Category page");
     }
 
     public int findMaxDiscount() {
-        Label lblDiscounts = new Label(By.xpath(recommendedSpecialsDiscountBaseLocator));
+        Label lblDiscounts = new Label(By.xpath(recommendedSpecialsDiscountBaseLocator), "discounts");
         List<WebElement> discounts = lblDiscounts.getElements();
         int maxGameDiscount = Integer.parseInt(discounts.get(0).getText().replaceAll("[-%]",""));
         for (WebElement discount : discounts) {
@@ -29,7 +29,7 @@ public class CategoryPage extends SteamBasePage {
     }
 
     public void selectGameWithMaxDiscount (int maxDiscount) {
-        Label lblGameMaxDiscount = new Label(By.xpath(String.format(recommendedSpecialsDiscountLocator,maxDiscount)));
+        Label lblGameMaxDiscount = new Label(By.xpath(String.format(recommendedSpecialsDiscountLocator,maxDiscount)), "max discount");
         lblGameMaxDiscount.clickAndWait();
     }
 }

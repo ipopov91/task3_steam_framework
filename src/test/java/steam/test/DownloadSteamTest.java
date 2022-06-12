@@ -5,7 +5,6 @@ import framework.LocaleReader;
 import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 import steam.pages.*;
 import java.io.File;
 
@@ -28,9 +27,6 @@ public class DownloadSteamTest extends BaseTest {
 
     @Step("Steam download test")
     public void runTest() {
-        logger.step(1);
-        logger.info("Logging into https://store.steampowered.com\n");
-
         browser.navigate(browser.props.getProperty("URL"));
 
         String storeNavPullDownItem = LocaleReader.getString("storeNav.categories");
@@ -38,36 +34,29 @@ public class DownloadSteamTest extends BaseTest {
 
         MainPage mainPage = new MainPage();
 
-        logger.step(2);
-        logger.info("Click the \"language\" drop-down button and select \"English\" from the list.\n");
+
         mainPage.switchLanguage(browser.props.getProperty("language"));
 
-        logger.step(3);
-        logger.info("Click the \"Categories\" drop-down menu and click the \"Actions\" label \n");
         mainPage.navigateStorePullDownMenu(storeNavPullDownItem,storeNavGenrePopupMenuItem);
 
         CategoryPage categoryPage = new CategoryPage(storeNavGenrePopupMenuItem);
 
-        logger.step(4);
-        logger.info("Choose the game with the maximum discount and click on it\n");
+
         int maxDiscount = categoryPage.findMaxDiscount();
         categoryPage.selectGameWithMaxDiscount(maxDiscount);
 
         if (browser.getDriver().getCurrentUrl().contains("agecheck")) {
-            logger.info("Age verification: Enter your age in the fields that appear\n");
             AgeVerificationPage ageVerificationPage = new AgeVerificationPage();
             ageVerificationPage.passAgeCheck(DEFAULT_DAY, DEFAULT_MONTH, DEFAULT_YEAR);
         }
 
         GamePage gamePage = new GamePage(String.valueOf(maxDiscount));
-        logger.step(4);
-        logger.info("Click on the \"Install Steam\" button\n");
+
         gamePage.navigateInstallSteam();
 
         InstallPage installPage = new InstallPage();
 
-        logger.step(5);
-        logger.info("Click \"Download Steam!\"");
+
         installPage.downloadSteam();
         Assert.assertTrue(installPage.isFileDownloaded());
 

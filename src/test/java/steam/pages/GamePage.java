@@ -7,6 +7,6 @@ public class GamePage extends SteamBasePage {
             "//div[@class='game_area_purchase_game_wrapper']//div[@class='discount_pct' and contains(text(),'%s')]";
 
     public GamePage(String pageLocatorValue) {
-        super(By.xpath(String.format(pageLocator,pageLocatorValue)));
+        super(By.xpath(String.format(pageLocator,pageLocatorValue)), "Game Page");
     }
 }

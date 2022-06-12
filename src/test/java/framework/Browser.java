@@ -45,7 +45,9 @@ public final class Browser {
             try {
                 driver = BrowserFactory.setUp(currentBrowser.toString());
                 driver.manage().timeouts().implicitlyWait(Long.parseLong(props.getProperty(IMPLICIT_WAIT)), TimeUnit.SECONDS);
+                Logger.getInstance().info(getLoc("loc.browser.constructed"));
             } catch (Exception e) {
+                Logger.getInstance().info("NamingException...");
                 e.printStackTrace();
             }
             instance = new Browser();
@@ -59,6 +61,7 @@ public final class Browser {
     public void exit() {
         try {
             driver.quit();
+            Logger.getInstance().info(getLoc("loc.browser.driver.qiut"));
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -103,7 +106,7 @@ public final class Browser {
                 }
             });
         } catch (Exception e) {
-            e.printStackTrace();
+            Logger.getInstance().warn(getLoc("loc.browser.page.timeout"));
         }
     }
 
@@ -119,7 +122,16 @@ public final class Browser {
     }
 
     /**
-     * Navigate to the url
+     * Gets current URL
+     * @return current URL
+     */
+    public String getLocation() {
+        return driver.getCurrentUrl();
+    }
+
+
+    /**
+     * Navigate to the urls
      * @param url url
      */
     public void navigate(final String url) {

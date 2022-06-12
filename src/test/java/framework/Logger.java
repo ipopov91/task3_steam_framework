@@ -4,8 +4,6 @@ import junit.framework.Assert;
 
 import org.testng.Reporter;
 
-import static org.testng.TestNGAntTask.Mode.junit;
-
 /**
  * This class is using for a creating extended log. It implements a Singleton pattern
  */
@@ -30,7 +28,7 @@ public final class Logger {
     private static final String AQA_LOCALE = "aqa.locale";
     private static org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(Logger.class);
     private static Logger instance = null;
-    public static final String LOG_DELIMITER = "::";
+    public static final String LOG_DELIMITER = "--";
     // This flag allows/restricts logging step names
     private static boolean logSteps = true;
     private static PropertiesResourceManager localManager = new PropertiesResourceManager(String.format("localization/loc_%1$s.properties", System.getProperty(AQA_LOCALE, DEF_LOCALE.toString()).toLowerCase()));

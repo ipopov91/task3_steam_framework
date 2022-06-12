@@ -6,14 +6,8 @@ import java.io.BufferedReader;
 
 import java.io.InputStreamReader;
 
-
 import org.testng.ITestContext;
-
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
-import framework.Browser.Browsers;
-
 
 
 /**
@@ -50,8 +44,6 @@ public abstract class BaseEntity {
      * @return null
      */
     protected abstract String formatLogMsg(String message);
-
-
 
     /**
      * Informative message.
@@ -139,38 +131,6 @@ public abstract class BaseEntity {
     }
 
     /**
-     * Assert Objects are Equal
-     *
-     * @param expected
-     *            Expected Value
-     * @param actual
-     *            Actual Value
-     */
-    public void assertEquals(final Object expected, final Object actual) {
-        if (!expected.equals(actual)) {
-            fatal("Expected value: '" + expected + "', but was: '" + actual
-                    + "'");
-        }
-    }
-
-    /**
-     * Assert Objects are Equal
-     *
-     * @param message
-     *            Fail Message
-     * @param expected
-     *            Expected Value
-     * @param actual
-     *            Actual Value
-     */
-    public void assertEquals(final String message, final Object expected,
-                             final Object actual) {
-        if (!expected.equals(actual)) {
-            fatal(message);
-        }
-    }
-
-    /**
      * killing process by Image name
      */
     public void checkAndKill() {
@@ -217,10 +177,4 @@ public abstract class BaseEntity {
         logStep(stepNumber++);
         logger.info(String.format("----==[ %1$s ]==----", info));
     }
-
-
-
-
-
-
 }

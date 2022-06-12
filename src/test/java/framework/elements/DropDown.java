@@ -11,6 +11,20 @@ public class DropDown extends BaseElement {
         select = new Select(this.getElement());
     }
 
+    /**
+     *
+     * @param locator
+     * @param name
+     */
+
+    public DropDown(final By locator, final String name) {
+        super(locator, name);
+    }
+
+    protected String getElementType() {
+        return getLoc("loc.dropdown");
+    }
+
     public void selectDropDownValue(String value) {
         select.selectByValue(value);
     }
