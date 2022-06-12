@@ -28,7 +28,7 @@ public class DownloadSteamTest extends BaseTest {
     @Step("Steam download test")
     public void runTest() {
         browser.navigate(browser.props.getProperty("URL"));
-
+        logger.step(1);
         String storeNavPullDownItem = LocaleReader.getString("storeNav.categories");
         String storeNavGenrePopupMenuItem = LocaleReader.getString("storeNavCategories.action");
 
@@ -38,7 +38,7 @@ public class DownloadSteamTest extends BaseTest {
         mainPage.switchLanguage(browser.props.getProperty("language"));
 
         mainPage.navigateStorePullDownMenu(storeNavPullDownItem,storeNavGenrePopupMenuItem);
-
+        logger.step(2);
         CategoryPage categoryPage = new CategoryPage(storeNavGenrePopupMenuItem);
 
 
@@ -49,11 +49,11 @@ public class DownloadSteamTest extends BaseTest {
             AgeVerificationPage ageVerificationPage = new AgeVerificationPage();
             ageVerificationPage.passAgeCheck(DEFAULT_DAY, DEFAULT_MONTH, DEFAULT_YEAR);
         }
-
+        logger.step(3);
         GamePage gamePage = new GamePage(String.valueOf(maxDiscount));
 
         gamePage.navigateInstallSteam();
-
+        logger.step(4);
         InstallPage installPage = new InstallPage();
 
 

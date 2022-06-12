@@ -1586,3 +1586,29 @@
 2022-06-12 11:06:43 INFO  Logger:210 - *************************************************************
 2022-06-12 11:06:43 INFO  Logger:210 - 
 2022-06-12 11:06:43 INFO  Logger:210 - driver.quit...
+2022-06-12 22:29:42 INFO  Logger:210 - browser driver was constructed
+2022-06-12 22:29:42 INFO  Logger:210 - Browser 'chrome' ready...
+2022-06-12 22:29:43 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 22:29:43 INFO  Logger:210 - =====================  Test case: 'steam.test.DownloadSteamTest' =====================
+2022-06-12 22:29:43 INFO  Logger:210 - --------------------------------------------------------------------------------------
+2022-06-12 22:29:43 INFO  Logger:210 - --------==[ Preconditions ]==--------
+2022-06-12 22:29:45 INFO  Logger:210 - --------==[ Step 1 ]==--------
+2022-06-12 22:29:45 INFO  Logger:210 - Page 'Home Page' appears in 120msec
+2022-06-12 22:29:45 INFO  Logger:210 - Button 'switch language' -- Clicking
+2022-06-12 22:29:46 INFO  Logger:210 - Label 'store navigation' -- Clicking
+2022-06-12 22:29:46 INFO  Logger:210 - Label 'store navigation genre popup menu' -- Clicking
+2022-06-12 22:29:50 INFO  Logger:210 - --------==[ Step 2 ]==--------
+2022-06-12 22:29:50 INFO  Logger:210 - Page 'Category page' appears in 75msec
+2022-06-12 22:29:51 INFO  Logger:210 - Label 'max discount' -- Clicking
+2022-06-12 22:30:07 INFO  Logger:210 - --------==[ Step 3 ]==--------
+2022-06-12 22:30:07 INFO  Logger:210 - Page 'Game Page' appears in 94msec
+2022-06-12 22:30:07 INFO  Logger:210 - Button 'install steam' -- Clicking
+2022-06-12 22:30:08 INFO  Logger:210 - --------==[ Step 4 ]==--------
+2022-06-12 22:30:08 INFO  Logger:210 - Page 'Install Page' appears in 19msec
+2022-06-12 22:30:08 INFO  Logger:210 - Button 'download steam' -- Clicking
+2022-06-12 22:30:10 INFO  Logger:210 - 
+2022-06-12 22:30:10 INFO  Logger:210 - *************************************************************
+2022-06-12 22:30:10 INFO  Logger:210 - ***** Test case: 'steam.test.DownloadSteamTest' Passed! *****
+2022-06-12 22:30:10 INFO  Logger:210 - *************************************************************
+2022-06-12 22:30:10 INFO  Logger:210 - 
+2022-06-12 22:30:11 INFO  Logger:210 - driver.quit...
